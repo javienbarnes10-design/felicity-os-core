@@ -1,0 +1,172 @@
+System State at 2026-08-07 04:50:36:
+total 856K
+drwxr-xr-x 33 javienbarnes staff 1.1K Aug  7 04:50 .
+-rw-r--r--  1 javienbarnes staff    0 Jun 14 20:49 .!99427!sovereign.db
+drwxr-x--- 78 javienbarnes staff 2.5K Aug  7 01:05 ..
+drwxr-xr-x  6 javienbarnes staff  192 Jul  7 07:46 .archive
+-rw-r--r--  1 javienbarnes staff 1.2K Apr 19 03:31 .current_scan
+-rw-r--r--  1 javienbarnes staff   55 May 10 16:11 .env
+drwxr-xr-x 12 javienbarnes staff  384 Jun 30 12:07 .git
+-rw-r--r--  1 javienbarnes staff    0 May 18 07:12 .hidden_evidence
+-rw-r--r--  1 javienbarnes staff 1.2K Apr 19 03:30 .master_scan
+-rw-r--r--  1 javienbarnes staff    2 Aug  7 04:50 .reflex_retry_count
+drwxr-xr-x  6 javienbarnes staff  192 Jul 14 00:14 .studio_env
+-rw-r--r--  1 javienbarnes staff  283 Apr 19 03:36 .temp_mesh
+-rw-r--r--  1 javienbarnes staff 1.4K Apr 19 09:56 .tmp_bt
+-rw-r--r--  1 javienbarnes staff    0 Jul 10 11:39 .verify_before_execute
+-rw-r--r--  1 javienbarnes staff    2 Aug  7 02:26 arc_test.json
+-rw-r--r--  1 javienbarnes staff    0 Aug  7 04:50 audit_2026-08-07 04-50-36.txt
+drwxr-xr-x  3 javienbarnes staff   96 Aug  7 04:50 audit_scripts
+-rw-r--r--  1 javienbarnes staff  42K Aug  7 01:44 Cargo.lock
+-rw-r--r--  1 javienbarnes staff  290 Jul 25 12:19 Cargo.toml
+-rw-r--r--  1 javienbarnes staff  25K Aug  7 04:49 error_patterns.log
+-rw-r--r--  1 javienbarnes staff 525K Aug  7 04:50 error_sense.log
+-rw-r--r--  1 javienbarnes staff  432 Aug  7 04:00 monitor_log.txt
+-rw-r--r--  1 javienbarnes staff  77K Aug  7 04:50 reflex_history.log
+-rwxr-xr-x  1 javienbarnes staff 8.8K Aug  7 03:48 reflex.sh
+-rw-r--r--  1 javienbarnes staff  107 Aug  7 03:49 self_metrics.json
+-rw-r--r--  1 javienbarnes staff  16K Jul 31 19:40 sovereign.db
+drwxr-xr-x 13 javienbarnes staff  416 Aug  7 03:56 src
+drwxr-xr-x  8 javienbarnes staff  256 Aug  7 04:13 system_audit
+drwxr-xr-x  5 javienbarnes staff  160 Jul 25 12:04 target
+-rw-r--r--  1 javienbarnes staff   37 Aug  7 01:41 user_command.log
+drwxr-xr-x  5 javienbarnes staff  160 Aug  7 01:07 user_command.log.d
+drwxr-xr-x  2 javienbarnes staff   64 Jul 27 17:48 user_command.log.parent_dir
+-rwxr-xr-x  1 javienbarnes staff  15K Jul 25 12:03 wristband.sh
+
+Pending Optimization Structures found in /tmp:
+lrwxr-xr-x 1 root wheel 11 Feb 24 22:41 /tmp -> private/tmp
+
+Pending Optimization Structures found in /var/log:
+total 32M
+drwxr-xr-x 40 root           wheel 1.3K Aug  7 02:53 .
+drwxr-xr-x 35 root           wheel 1.1K Mar 23 01:40 ..
+drwxr-xr-x  2 root           wheel   64 Feb 24 22:41 apache2
+drwxr-xr-x 16 root           wheel  512 Aug  7 00:35 asl
+drwxr-xr-x  5 root           wheel  160 Jul 24 11:12 com.apple.wifi.analytics
+drwxr-xr-x  2 root           wheel   64 Mar  3 01:45 com.apple.wifivelocity
+drwxr-xr-x  5 root           wheel  160 Aug  7 03:22 com.apple.xpc.launchd
+drwxr-xr-x  2 root           wheel   64 Feb 24 22:41 CoreDuet
+drwxr-xr-x  2 root           wheel   64 Feb 24 22:41 cups
+drwxr-x---  9 root           admin  288 Aug  7 00:37 DiagnosticMessages
+drwxr-xr-x  2 root           wheel   64 Feb 24 22:41 dm
+-rw-r--r--  1 root           wheel    0 Aug  7 00:35 fsck_apfs_error.log
+-rw-r--r--  1 root           wheel  40K Jul 24 11:11 fsck_apfs.log
+-rw-r--r--  1 root           wheel  640 Mar 24 14:11 fsck_hfs.log
+-rw-r--r--  1 root           admin  29M Aug  7 04:34 install.log
+drwxr-xr-x  2 _mdnsresponder wheel   64 Feb 24 22:41 mDNSResponder
+drwxr-xr-x 16 root           admin  512 Aug  7 00:35 powermanagement
+drwxr-xr-x  2 root           wheel   64 Feb 24 22:41 ppp
+drwxr-xr-x  2 root           wheel   64 Mar  3 03:00 PrivacyPreservingMeasurement
+-rw-r--r--  1 root           wheel 1.3K Mar 23 01:36 shutdown_monitor.log
+-rw-r-----  1 root           admin 4.9K Aug  7 04:49 system.log
+-rw-r-----  1 root           admin  562 Aug  7 00:35 system.log.0.gz
+-rw-r-----  1 root           admin  944 Aug  4 00:18 system.log.1.gz
+-rw-r-----  1 root           admin  810 Aug  3 00:45 system.log.2.gz
+-rw-r-----  1 root           admin  949 Aug  2 00:11 system.log.3.gz
+-rw-r-----  1 root           admin  334 Aug  1 00:19 system.log.4.gz
+-rw-r-----  1 root           admin  690 Jul 31 17:33 system.log.5.gz
+drwxr-xr-x  2 _uucp          wheel   64 Feb 24 22:41 uucp
+-rw-r-----  1 root           admin 448K Aug  7 04:50 wifi.log
+-rw-r-----  1 root           admin  17K Aug  7 00:35 wifi.log.0.bz2
+-rw-r-----  1 root           admin  78K Aug  4 00:35 wifi.log.1.bz2
+-rw-r-----  1 root           admin 392K Jul 25 00:30 wifi.log.10.bz2
+-rw-r-----  1 root           admin  52K Aug  3 00:40 wifi.log.2.bz2
+-rw-r-----  1 root           admin  61K Aug  2 01:45 wifi.log.3.bz2
+-rw-r-----  1 root           admin  96K Aug  1 01:37 wifi.log.4.bz2
+-rw-r-----  1 root           admin  60K Jul 30 00:40 wifi.log.5.bz2
+-rw-r-----  1 root           admin  58K Jul 29 00:32 wifi.log.6.bz2
+-rw-r-----  1 root           admin 180K Jul 28 00:37 wifi.log.7.bz2
+-rw-r-----  1 root           admin 142K Jul 27 00:30 wifi.log.8.bz2
+-rw-r-----  1 root           admin 529K Jul 26 00:33 wifi.log.9.bz2
+
+Checking file /Users/javienbarnes/felicity_forge/wristband.sh:
+#!/bin/zsh
+# ─────────────────────────────────────────────
+# FELICITY ERROR SENSE — wristband.sh
+# U...
+Checking file /Users/javienbarnes/felicity_forge/Cargo.toml:
+[package]
+name = "sovereign"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = { version...
+Checking file /Users/javienbarnes/felicity_forge/.temp_mesh:
+          Address: A0:9A:8E:0A:8E:DA
+              Address: F4:4E:FD:11:9E:C7
+              Address:...
+Checking file /Users/javienbarnes/felicity_forge/sovereign.db:
+Failed to read sovereign.db: 'utf-8' codec can't decode byte 0x8d in position 98: invalid start byte
+Checking file /Users/javienbarnes/felicity_forge/.reflex_retry_count:
+0
+...
+Checking file /Users/javienbarnes/felicity_forge/.!99427!sovereign.db:
+...
+Checking file /Users/javienbarnes/felicity_forge/.hidden_evidence:
+...
+Checking file /Users/javienbarnes/felicity_forge/monitor_log.txt:
+Hello World
+USER_COMMAND: hey
+USER_COMMAND: hey
+USER_COMMAND: hey
+USER_COMMAND: hey
+USER_COMMAND: he...
+Checking file /Users/javienbarnes/felicity_forge/.tmp_bt:
+Bluetooth:
+
+      Bluetooth Controller:
+          Address: A0:9A:8E:0A:8E:DA
+          State: On
+   ...
+Checking file /Users/javienbarnes/felicity_forge/Cargo.lock:
+# This file is automatically @generated by Cargo.
+# It is not intended for manual editing.
+version =...
+Checking file /Users/javienbarnes/felicity_forge/error_sense.log:
+[ERROR_SENSE] [2026-07-26 21:20:25]
+SUBSTRATE : Apple M4 | 16GB | Thermal used 212G, 93% full | Upti...
+Checking file /Users/javienbarnes/felicity_forge/.master_scan:
+Bluetooth:
+
+      Bluetooth Controller:
+          Address: A0:9A:8E:0A:8E:DA
+          State: On
+   ...
+Checking file /Users/javienbarnes/felicity_forge/self_metrics.json:
+{"lines": 33, "functions": 2, "sha256": "ac86bb2a09d852feb26f8cac816b57fe931d6db219963c0a2fa7f0d0741...
+Checking file /Users/javienbarnes/felicity_forge/.env:
+GEMINI_API_KEY=AIzaSyBkBN2ksRXox85qVvwbaSI96wJOu8v5cP4
+...
+Checking file /Users/javienbarnes/felicity_forge/reflex.sh:
+#!/bin/bash
+# reflex.sh - The Execution Conductor (Sanitized, Hardened & Retry-Limited)
+
+LOG_FILE="/...
+Checking file /Users/javienbarnes/felicity_forge/reflex_history.log:
+[2026-07-25 12:04:06] COMMAND: 
+[2026-07-25 12:21:27] COMMAND: echo "USER_COMMAND: hey" >> monitor_l...
+Checking file /Users/javienbarnes/felicity_forge/.current_scan:
+Bluetooth:
+
+      Bluetooth Controller:
+          Address: A0:9A:8E:0A:8E:DA
+          State: On
+   ...
+Checking file /Users/javienbarnes/felicity_forge/user_command.log:
+# User command processing logic here
+...
+Checking file /Users/javienbarnes/felicity_forge/error_patterns.log:
+REPORTED_ERROR_IN_OUTPUT|exit code  — output describes a problem|TIME: 2026-07-25 12:04:24
+REPORTED_...
+Checking file /Users/javienbarnes/felicity_forge/arc_test.json:
+6
+...
+Checking file /Users/javienbarnes/felicity_forge/audit_2026-08-07 04-50-36.txt:
+...
+Checking file /Users/javienbarnes/felicity_forge/.verify_before_execute:
+...
+
+--- Final Report ---
+All files and directories audited.

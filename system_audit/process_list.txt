@@ -1,0 +1,357 @@
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+javienbarnes      7224  24.6  0.1 435373888  13168   ??  S    10:27PM   0:00.10 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+javienbarnes      5159  12.1 42.7 451882240 7170720   ??  S    10:13PM  22:37.01 /Applications/Ollama.app/Contents/Resources/llama-server --model /Users/javienbarnes/.ollama/models/blobs/sha256-2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54 --port 61408 --host 127.0.0.1 --no-webui --offline -c 32768 -np 1 --log-verbosity 4 --no-log-prefix --no-log-timestamps --no-jinja --chat-template chatml --load-mode none --flash-attn auto -b 512 -ub 512 --context-shift --keep 4
+_windowserver      407   9.1  0.1 436975184  17872   ??  Ss   Sat04PM   5:25.39 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+root               402   4.8  0.0 435358864   4624   ??  Ss   Sat04PM   0:08.35 /usr/libexec/corebrightnessd --launchd
+root               374   3.4  0.0 435361472   5552   ??  Ss   Sat04PM   0:15.15 /usr/libexec/opendirectoryd
+_locationd         382   2.9  0.1 435380480  12128   ??  Ss   Sat04PM   0:42.69 /usr/libexec/locationd
+javienbarnes       660   2.9  0.1 435699072  15280   ??  S    Sat04PM   0:59.00 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+javienbarnes      1797   2.0  0.1 1220247976  25060   ??  R    Sat09PM   1:39.12 /Applications/TextNow.app/Contents/Frameworks/TextNow Helper (Renderer).app/Contents/MacOS/TextNow Helper (Renderer) --type=renderer --user-data-dir=/Users/javienbarnes/Library/Containers/com.textnow.electron/Data/Library/Application Support/TextNow --app-path=/Applications/TextNow.app/Contents/Resources/app.asar --enable-sandbox --enable-blink-features --disable-blink-features --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1786219851414028 --launch-time-ticks=5171818773 --shared-files --field-trial-handle=1718379636,r,5554239922452706497,10319347540490614883,131072 --disable-features=SpareRendererForSitePerProcess --seatbelt-client=55
+root               499   1.8  0.1 435373472  11344   ??  Ss   Sat04PM   3:55.19 /usr/libexec/airportd
+javienbarnes      5344   1.8  0.1 435340416   9344 s005  S+   10:17PM   0:00.48 target/debug/sovereign
+root               391   1.6  0.1 435372608   8704   ??  Ss   Sat04PM   0:50.93 /usr/libexec/PerfPowerServices
+root                 1   1.5  0.0 435245680   7216   ??  Ss   Sat03PM   1:04.72 /sbin/launchd
+root               400   1.3  0.0 435321120   2896   ??  Ss   Sat04PM   0:06.96 /usr/sbin/notifyd
+root               362   1.2  0.1 435386448  10128   ??  Ss   Sat04PM   0:13.09 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+_driverkit         531   1.2  0.2 435306896  35984   ??  Ss   Sat04PM   1:08.25 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN com.apple.bcmwlan 0x100000da9 com.apple.DriverKit-AppleBCMWLAN
+root               333   1.2  0.0 435417072   6336   ??  Ss   Sat04PM   0:29.61 /usr/libexec/logd
+javienbarnes      1796   0.9  0.1 436647264  21712   ??  Ss   Sat09PM   0:40.12 /Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension -AppleLanguages ("en-US")
+javienbarnes      1074   0.7  0.1 35556252   9360   ??  S    Sat04PM   0:28.38 /Applications/TextNow.app/Contents/Frameworks/TextNow Helper.app/Contents/MacOS/TextNow Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --user-data-dir=/Users/javienbarnes/Library/Containers/com.textnow.electron/Data/Library/Application Support/TextNow --shared-files --field-trial-handle=1718379636,r,5554239922452706497,10319347540490614883,131072 --disable-features=SpareRendererForSitePerProcess --seatbelt-client=37
+javienbarnes      7329   0.7  0.0 435299936   2272 s005  S+   10:27PM   0:00.00 /bin/bash ./reflex.sh ps auxww > /Users/javienbarnes/felicity_forge/system_audit/process_list.txt
+javienbarnes       584   0.6  0.0 435323584   3552   ??  S    Sat04PM   0:06.61 /usr/sbin/cfprefsd agent
+javienbarnes       656   0.6  0.0 1211979744   7436   ??  S    Sat04PM   0:32.55 /Applications/TextNow.app/Contents/MacOS/TextNow
+root               386   0.6  0.0 435364736   6016   ??  Ss   Sat04PM   0:28.39 /usr/libexec/dasd
+root               373   0.5  0.0 435341056   2160   ??  Ss   Sat04PM   0:00.13 /usr/libexec/xprotectd
+javienbarnes      1125   0.5  0.1 436847568  11296   ??  S    Sat04PM   0:05.74 /Applications/Ollama.app/Contents/Resources/ollama serve
+_mds_stores        494   0.5  0.0 441835104   7392   ??  Ss   Sat04PM   0:12.35 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+root               409   0.4  0.0 435322832   3376   ??  Ss   Sat04PM   0:10.11 /usr/sbin/cfprefsd daemon
+javienbarnes      7181   0.3  0.0 435372992   8128   ??  S    10:26PM   0:00.08 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+root               369   0.3  0.0 435322640   1488   ??  Ss   Sat04PM   0:01.59 /usr/sbin/syslogd
+javienbarnes       700   0.2  0.0 435480672   5920   ??  Ss   Sat04PM   3:30.82 /System/Library/ExtensionKit/Extensions/WallpaperAerialsExtension.appex/Contents/MacOS/WallpaperAerialsExtension -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53YWxscGFwZXIuZXh0ZW5zaW9uLmFlcmlhbHMiLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=
+_analyticsd        425   0.2  0.0 435367392   4400   ??  Ss   Sat04PM   0:08.27 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+root               365   0.2  0.0 435354944   2816   ??  Ss   Sat04PM   0:01.83 /usr/libexec/diskarbitrationd
+javienbarnes       609   0.2  0.0 435367232   4528   ??  S    Sat04PM   0:01.10 /usr/libexec/lsd
+root               335   0.2  0.0 435365424   2720   ??  Ss   Sat04PM   0:03.63 /usr/libexec/UserEventAgent (System)
+_networkd          496   0.2  0.0 435831072   4768   ??  Ss   Sat04PM   0:10.73 /usr/libexec/symptomsd
+javienbarnes      2217   0.1  0.0 435306496   1088   ??  S     8:40PM   0:00.74 sshd-session: javienbarnes@ttys005  
+javienbarnes      4304   0.1  0.0 435420352   5152   ??  Ss    9:12PM   1:16.79 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+javienbarnes      1122   0.1  0.0 507881952   4576   ??  Ss   Sat04PM   0:25.89 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+javienbarnes      1113   0.1  0.0 436870160   8256   ??  S    Sat04PM   0:07.07 /Applications/Tailscale.app/Contents/MacOS/Tailscale
+root               337   0.1  0.0 435325840   2992   ??  Ss   Sat04PM   0:09.95 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+root               345   0.1  0.0 435361472   3248   ??  Ss   Sat04PM   0:13.73 /usr/libexec/configd
+javienbarnes       623   0.1  0.1 440410624  10080   ??  S    Sat04PM   0:26.07 /System/Applications/TV.app/Contents/MacOS/TV
+root               413   0.1  0.0 435338896   1504   ??  Ss   Sat04PM   0:00.60 /System/Library/CoreServices/coreservicesd
+javienbarnes       583   0.1  0.0 435321456   1872   ??  S    Sat04PM   0:03.17 /usr/sbin/distnoted agent
+javienbarnes      6815   0.0  0.0 435361760   4464   ??  S    10:25PM   0:00.16 /usr/libexec/dmd
+javienbarnes      6814   0.0  0.0 435356352   4416   ??  Ss   10:25PM   0:00.11 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+javienbarnes      6813   0.0  0.0 435356448   4272   ??  Ss   10:25PM   0:00.12 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+javienbarnes      6812   0.0  0.0 435790528   5216   ??  S    10:25PM   0:01.73 /System/Library/PrivateFrameworks/SiriTTSService.framework/sirittsd
+javienbarnes      6811   0.0  0.0 435369696   7216   ??  S    10:25PM   0:00.37 /usr/libexec/networkserviceproxy
+javienbarnes      6810   0.0  0.0 435428704   4112   ??  Ss   10:25PM   0:00.08 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/XPCServices/com.apple.FaceTime.FTConversationService.xpc/Contents/MacOS/com.apple.FaceTime.FTConversationService
+javienbarnes      6809   0.0  0.0 435408112   8112   ??  S    10:24PM   0:01.39 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+javienbarnes      6808   0.0  0.0 435369472   5472   ??  S    10:24PM   0:00.48 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+javienbarnes      6807   0.0  0.0 435321984   2080   ??  S    10:24PM   0:00.03 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+javienbarnes      6806   0.0  0.0 435531856   7200   ??  S    10:24PM   0:00.55 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+root              6805   0.0  0.0 435306384   2752   ??  Ss   10:24PM   0:00.03 /System/Library/PrivateFrameworks/PowerLog.framework/Versions/A/XPCServices/PerfPowerTelemetryClientRegistrationService.xpc/Contents/MacOS/PerfPowerTelemetryClientRegistrationService
+root              6804   0.0  0.0 435356016   3488   ??  Ss   10:24PM   0:00.13 /usr/libexec/aned
+javienbarnes      6803   0.0  0.0 435408560   5632   ??  S    10:24PM   0:01.67 /usr/libexec/replayd
+javienbarnes      6802   0.0  0.0 435383056   5552   ??  S    10:24PM   0:00.27 /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+javienbarnes      6801   0.0  0.0 435357360   5792   ??  S    10:24PM   0:00.11 (photoanalysisd)
+javienbarnes      6800   0.0  0.0 435322784   3696   ??  S    10:24PM   0:00.06 /System/Library/Frameworks/ManagedSettings.framework/Versions/A/ManagedSettingsAgent
+javienbarnes      6796   0.0  0.0 435361056   5072   ??  S    10:24PM   0:00.43 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+javienbarnes      6795   0.0  0.0 435364528   5632   ??  S    10:24PM   0:02.87 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+_assetcache       6620   0.0  0.0 435355360   2912   ??  Ss   10:24PM   0:00.07 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -d
+root              6619   0.0  0.0 435344608   3344   ??  Ss   10:24PM   0:00.19 /System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService
+root              6618   0.0  0.0 435368144   6496   ??  Ss   10:24PM   0:03.00 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd --system
+_accessoryupdater  6616   0.0  0.0 435357648   5376   ??  Ss   10:24PM   0:08.37 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/accessoryupdaterd 120
+javienbarnes      6592   0.0  0.0 435308464   1104 s006  Ss+  10:24PM   0:00.05 -zsh
+javienbarnes      6591   0.0  0.0 435307056    752   ??  S    10:24PM   0:00.04 sshd-session: javienbarnes@ttys006  
+javienbarnes      6590   0.0  0.0 435404800   7696   ??  S    10:24PM   0:01.79 /System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed
+javienbarnes      6588   0.0  0.0 435368688   6688   ??  S    10:24PM   0:00.31 /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd
+javienbarnes      6579   0.0  0.0 435540080   5680   ??  S    10:24PM   0:00.37 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+root              6471   0.0  0.0 435314096   4528   ??  Ss   10:24PM   0:00.13 sshd-session: javienbarnes [priv]  
+javienbarnes      6271   0.0  0.0 435366288   4064   ??  S    10:23PM   0:00.16 /usr/libexec/secinitd
+javienbarnes      6268   0.0  0.0 435365904   3952   ??  S    10:23PM   0:00.09 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+javienbarnes      6262   0.0  0.0 435359232   5264   ??  S    10:22PM   0:00.34 /System/Library/CoreServices/audioaccessoryd
+root              6260   0.0  0.0 435355312   3808   ??  Ss   10:22PM   0:00.09 /System/Library/CoreServices/osanalyticshelper server-init
+_cmiodalassistants  5918   0.0  0.0 435354640   3072   ??  S    10:21PM   0:00.06 /usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none
+_locationd        5913   0.0  0.0 435354592   3072   ??  S    10:21PM   0:00.07 /usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none
+javienbarnes      5907   0.0  0.0 435362384   5040   ??  S    10:21PM   0:00.36 /System/Library/Frameworks/Contacts.framework/Support/contactsd
+javienbarnes      5610   0.0  0.0 435370992   4832   ??  S    10:19PM   0:00.26 /System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd
+root              5604   0.0  0.0 435354880   3200   ??  Ss   10:19PM   0:00.12 /usr/libexec/nehelper
+root              5475   0.0  0.0 435362336   6016   ??  Ss   10:18PM   0:00.39 /usr/libexec/wifip2pd
+javienbarnes      5429   0.0  0.0 435470784   4416   ??  S    10:17PM   0:00.43 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged -u
+javienbarnes      4307   0.0  0.0 435440880   1920   ??  S     9:12PM   0:00.17 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreautha.bundle/Contents/MacOS/coreautha
+root              4305   0.0  0.0 435357472   1488   ??  Ss    9:12PM   0:00.06 /usr/libexec/biometrickitd --launchd
+javienbarnes      4252   0.0  0.0 435372544   3632   ??  S     9:03PM   0:01.39 /System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd
+root              4251   0.0  0.0 435369696   3824   ??  Ss    9:03PM   0:00.79 /usr/libexec/coreduetd
+root              4214   0.0  0.0 435356032   1600   ??  Ss    9:03PM   0:00.20 /usr/libexec/securityd_system
+root              4169   0.0  0.0 435342512   1552   ??  Ss    9:02PM   0:00.59 /System/Library/PrivateFrameworks/SystemStatusServer.framework/Support/systemstatusd
+javienbarnes      4158   0.0  0.0 435373584   3008   ??  S     9:02PM   0:00.86 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/ContextStoreAgent
+root              4132   0.0  0.0 435366960   6272   ??  Ss    9:02PM   0:28.76 /usr/libexec/mobileassetd
+javienbarnes      4115   0.0  0.0 435504704    256   ??  Ss    9:01PM   0:00.01 postgres: logical replication launcher   
+javienbarnes      4114   0.0  0.0 435504704   1280   ??  Ss    9:01PM   0:00.04 postgres: autovacuum launcher   
+javienbarnes      4113   0.0  0.0 435503680    416   ??  Ss    9:01PM   0:00.05 postgres: walwriter   
+javienbarnes      4111   0.0  0.0 435503680    496   ??  Ss    9:01PM   0:00.06 postgres: background writer   
+javienbarnes      4110   0.0  0.0 435503680    464   ??  Ss    9:01PM   0:00.01 postgres: checkpointer   
+javienbarnes      4109   0.0  0.0 435503680    240   ??  Ss    9:01PM   0:00.00 postgres: io worker 1  
+javienbarnes      4108   0.0  0.0 435503680    256   ??  Ss    9:01PM   0:00.00 postgres: io worker 0  
+javienbarnes      4107   0.0  0.0 435503680    240   ??  Ss    9:01PM   0:00.00 postgres: io worker 2  
+javienbarnes      4106   0.0  0.0 435507168   1136   ??  S     9:01PM   0:00.09 /opt/homebrew/opt/postgresql@18/bin/postgres -D /opt/homebrew/var/postgresql@18
+javienbarnes      2218   0.0  0.0 435308880    272 s005  Ss    8:40PM   0:00.15 -zsh
+root              2211   0.0  0.0 435313568    496   ??  Ss    8:40PM   0:00.10 sshd-session: javienbarnes [priv]  
+_netbios          2154   0.0  0.0 435321696    704   ??  SNs   5:36PM   0:00.13 /usr/sbin/netbiosd
+javienbarnes      1940   0.0  0.0 435635920   4960   ??  Ss    6:09AM   0:06.61 /System/Applications/Weather.app/Contents/PlugIns/WeatherWidget.appex/Contents/MacOS/WeatherWidget -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53ZWF0aGVyLndpZGdldCIsImVuaGFuY2VkU2VjdXJpdHkiOmZhbHNlLCJ0eXBlIjoxfQ==
+javienbarnes      1853   0.0  0.0 435362752    896   ??  S    11:57PM   0:00.34 /System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributionagent
+_fpsd             1806   0.0  0.0 435365888    704   ??  Ss   Sat09PM   0:02.77 /System/Library/PrivateFrameworks/CoreLSKD.framework/Versions/A/lskdd
+javienbarnes      1740   0.0  0.0 435356256    832   ??  S    Sat07PM   0:00.10 /System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent
+javienbarnes      1649   0.0  0.0 435358368   2400   ??  S    Sat06PM   0:00.53 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged -x
+_neuralengine     1365   0.0  0.0 435321888    512   ??  S    Sat05PM   0:00.36 /usr/sbin/distnoted agent
+_modelmanagerd    1326   0.0  0.0 435366192    880   ??  Ss   Sat05PM   0:00.67 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS50Z29uZGV2aWNlaW5mZXJlbmNlcHJvdmlkZXJzZXJ2aWNlIiwidHlwZSI6OCwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2V9
+_modelmanagerd    1325   0.0  0.0 435366320    512   ??  Ss   Sat05PM   0:00.46 /System/Library/ExtensionKit/Extensions/GenerativeExperiencesSafetyInferenceProvider.appex/Contents/MacOS/GenerativeExperiencesSafetyInferenceProvider -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5HZW5lcmF0aXZlRnVuY3Rpb25zLkdlbmVyYXRpdmVFeHBlcmllbmNlc1NhZmV0eUluZmVyZW5jZVByb3ZpZGVyIiwidHlwZSI6OCwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2V9
+javienbarnes      1176   0.0  0.0 435470080    976   ??  S    Sat05PM   0:00.72 /System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime
+root              1167   0.0  0.0 435362720    880   ??  Ss   Sat05PM   0:00.44 /System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributiond
+_rmd              1159   0.0  0.0 435321216    496   ??  S    Sat05PM   0:00.35 /usr/sbin/distnoted agent
+javienbarnes      1137   0.0  0.0 436758608   1744 s004  S+   Sat04PM   0:00.57 ollama serve
+javienbarnes      1135   0.0  0.0 435399152    528   ??  Ss   Sat04PM   0:00.54 /System/Applications/Calendar.app/Contents/PlugIns/CalendarWidgetExtension.appex/Contents/MacOS/CalendarWidgetExtension -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5pQ2FsLkNhbGVuZGFyV2lkZ2V0RXh0ZW5zaW9uIiwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2UsInR5cGUiOjF9
+javienbarnes      1134   0.0  0.0 435367008    512   ??  Ss   Sat04PM   0:00.05 /System/Applications/Calendar.app/Contents/Extensions/CalendarIntentsExtension.appex/Contents/MacOS/CalendarIntentsExtension -LaunchArguments eyJ0eXBlIjoxLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuY2FsZW5kYXIuQ2FsZW5kYXJJbnRlbnRzRXh0ZW5zaW9uIn0=
+javienbarnes      1114   0.0  0.0 436948528   1728   ??  S    Sat04PM   0:00.30 /Applications/Ollama.app/Contents/MacOS/Ollama hidden
+javienbarnes      1111   0.0  0.0 435322016    704   ??  S    Sat04PM   0:00.05 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+javienbarnes      1100   0.0  0.0 436627536    832   ??  S    Sat04PM   0:00.05 Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel background
+root              1108   0.0  0.0 435321440    704   ??  Ss   Sat04PM   0:00.06 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+javienbarnes      1106   0.0  0.0 435602800    928   ??  S    Sat04PM   0:00.19 /System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent
+javienbarnes      1104   0.0  0.0 435365072    640   ??  S    Sat04PM   0:00.10 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+root              1086   0.0  0.0 435356640   2144   ??  Ss   Sat04PM   0:00.93 /usr/libexec/wifivelocityd
+root              1077   0.0  0.0 435321536    416   ??  Ss   Sat04PM   0:00.02 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+javienbarnes      1075   0.0  0.0 1219179636   1532   ??  S    Sat04PM   0:00.98 /Applications/TextNow.app/Contents/Frameworks/TextNow Helper (Renderer).app/Contents/MacOS/TextNow Helper (Renderer) --type=renderer --user-data-dir=/Users/javienbarnes/Library/Containers/com.textnow.electron/Data/Library/Application Support/TextNow --app-path=/Applications/TextNow.app/Contents/Resources/app.asar --enable-sandbox --first-renderer-process --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1786219851414028 --launch-time-ticks=2789997624 --shared-files --field-trial-handle=1718379636,r,5554239922452706497,10319347540490614883,131072 --disable-features=SpareRendererForSitePerProcess --seatbelt-client=41
+_driverkit        1071   0.0  0.0 435239600    816   ??  Ss   Sat04PM   0:00.03 /System/Library/DriverExtensions/IOUserBluetoothSerialDriver.dext/IOUserBluetoothSerialDriver com.apple.IOUserBluetoothSerialDriver 0x100001215 com.apple.IOUserBluetoothSerialDriver
+javienbarnes      1070   0.0  0.0 35938948   1936   ??  S    Sat04PM   0:03.22 /Applications/TextNow.app/Contents/Frameworks/TextNow Helper (GPU).app/Contents/MacOS/TextNow Helper (GPU) --type=gpu-process --user-data-dir=/Users/javienbarnes/Library/Containers/com.textnow.electron/Data/Library/Application Support/TextNow --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACgFAAAAAAAAKAUAAAAAAAC4AQAANgAAALABAAAAAAAAuAEAAAAAAADAAQAAAAAAAMgBAAAAAAAA0AEAAAAAAADYAQAAAAAAAOABAAAAAAAA6AEAAAAAAADwAQAAAAAAAPgBAAAAAAAAAAIAAAAAAAAIAgAAAAAAABACAAAAAAAAGAIAAAAAAAAgAgAAAAAAACgCAAAAAAAAMAIAAAAAAAA4AgAAAAAAAEACAAAAAAAASAIAAAAAAABQAgAAAAAAAFgCAAAAAAAAYAIAAAAAAABoAgAAAAAAAHACAAAAAAAAeAIAAAAAAACAAgAAAAAAAIgCAAAAAAAAkAIAAAAAAACYAgAAAAAAAKACAAAAAAAAqAIAAAAAAACwAgAAAAAAALgCAAAAAAAAwAIAAAAAAADIAgAAAAAAANACAAAAAAAA2AIAAAAAAADgAgAAAAAAAOgCAAAAAAAA8AIAAAAAAAD4AgAAAAAAAAADAAAAAAAACAMAAAAAAAAQAwAAAAAAABgDAAAAAAAAIAMAAAAAAAAoAwAAAAAAADADAAAAAAAAOAMAAAAAAABAAwAAAAAAAEgDAAAAAAAAUAMAAAAAAABYAwAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAGAAAAEAAAAAAAAAAAAAAABwAAABAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAJAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAAAAAAADwAAABAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAEAAAAGAAAAEAAAAAAAAAABAAAABwAAABAAAAAAAAAAAQAAAAgAAAAQAAAAAAAAAAEAAAAJAAAAEAAAAAAAAAABAAAACwAAABAAAAAAAAAAAQAAAAwAAAAQAAAAAAAAAAEAAAAOAAAAEAAAAAAAAAABAAAADwAAABAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAQAAAAGAAAAEAAAAAAAAAAEAAAABwAAABAAAAAAAAAABAAAAAgAAAAQAAAAAAAAAAQAAAAJAAAAEAAAAAAAAAAEAAAACwAAABAAAAAAAAAABAAAAAwAAAAQAAAAAAAAAAQAAAAOAAAAEAAAAAAAAAAEAAAADwAAABAAAAAAAAAABwAAAAAAAAAQAAAAAAAAAAcAAAAGAAAAEAAAAAAAAAAHAAAABwAAABAAAAAAAAAABwAAAAgAAAAQAAAAAAAAAAcAAAAJAAAAEAAAAAAAAAAHAAAACwAAABAAAAAAAAAABwAAAAwAAAAQAAAAAAAAAAcAAAAOAAAAEAAAAAAAAAAHAAAADwAAABAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAgAAAAGAAAAEAAAAAAAAAAIAAAABwAAABAAAAAAAAAACAAAAAgAAAAQAAAAAAAAAAgAAAAJAAAAEAAAAAAAAAAIAAAACwAAABAAAAAAAAAACAAAAAwAAAAQAAAAAAAAAAgAAAAOAAAAEAAAAAAAAAAIAAAADwAAABAAAAAAAAAACgAAAAAAAAAQAAAAAAAAAAoAAAAGAAAAEAAAAAAAAAAKAAAABwAAABAAAAAAAAAACgAAAAgAAAAQAAAAAAAAAAoAAAAJAAAAEAAAAAAAAAAKAAAACwAAABAAAAAAAAAACgAAAAwAAAAQAAAAAAAAAAoAAAAOAAAAEAAAAAAAAAAKAAAADwAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=1718379636,r,5554239922452706497,10319347540490614883,131072 --disable-features=SpareRendererForSitePerProcess --seatbelt-client=33
+javienbarnes      1069   0.0  0.0 435366784    672   ??  SN   Sat04PM   0:01.16 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+_securityagent    1066   0.0  0.0 435321568    496   ??  S    Sat04PM   0:00.37 /usr/sbin/distnoted agent
+javienbarnes      1067   0.0  0.0 435359680   1856   ??  S    Sat04PM   0:10.83 /System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent
+javienbarnes       814   0.0  0.0 435366592   2464   ??  S    Sat04PM   0:00.46 /System/Library/CoreServices/diagnostics_agent
+root               839   0.0  0.0 435356368   2784   ??  Ss   Sat04PM   0:00.31 /System/Library/CoreServices/SubmitDiagInfo server-init
+root              1049   0.0  0.0 435356784    640   ??  S    Sat04PM   0:00.25 /usr/sbin/systemstats --logger-helper /private/var/db/systemstats
+_gamecontrollerd  1036   0.0  0.0 435321968    496   ??  S    Sat04PM   0:00.36 /usr/sbin/distnoted agent
+javienbarnes      1035   0.0  0.0 435355424    608   ??  S    Sat04PM   0:00.06 /System/Library/Image Capture/Support/icdd
+javienbarnes      1032   0.0  0.0 435311664    832   ??  Ss   Sat04PM   0:00.09 /System/Library/ExtensionKit/Extensions/ClassroomSettings.appex/Contents/MacOS/ClassroomSettings -LaunchArguments eyJ0eXBlIjoyLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuQ2xhc3Nyb29tLVNldHRpbmdzLmV4dGVuc2lvbiJ9
+javienbarnes      1030   0.0  0.0 435311360    992   ??  Ss   Sat04PM   0:00.13 /System/Library/ExtensionKit/Extensions/FollowUpSettingsExtension.appex/Contents/MacOS/FollowUpSettingsExtension -LaunchArguments eyJ0eXBlIjoyLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuRm9sbG93VXBTZXR0aW5ncy5Gb2xsb3dVcFNldHRpbmdzRXh0ZW5zaW9uIn0=
+javienbarnes      1027   0.0  0.0 435312384   2080   ??  Ss   Sat04PM   0:08.45 /System/Library/ExtensionKit/Extensions/VPN.appex/Contents/MacOS/VPN -LaunchArguments eyJ0eXBlIjoyLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuTmV0d29ya0V4dGVuc2lvblNldHRpbmdzVUkuTkVTZXR0aW5nc1VJRXh0ZW5zaW9uIn0=
+javienbarnes      1026   0.0  0.0 435310800    848   ??  Ss   Sat04PM   0:00.11 /System/Library/ExtensionKit/Extensions/FamilySettings.appex/Contents/MacOS/FamilySettings -LaunchArguments eyJ0eXBlIjoyLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuRmFtaWx5LVNldHRpbmdzLmV4dGVuc2lvbiJ9
+javienbarnes      1025   0.0  0.0 435311072   1216   ??  Ss   Sat04PM   0:00.12 /System/Library/ExtensionKit/Extensions/HeadphoneSettingsExtension.appex/Contents/MacOS/HeadphoneSettingsExtension -LaunchArguments eyJ0eXBlIjoyLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuSGVhZHBob25lU2V0dGluZ3MifQ==
+javienbarnes      1020   0.0  0.0 435330400   1536   ??  Ss   Sat04PM   0:00.26 /System/Library/ExtensionKit/Extensions/AppleIDSettings.appex/Contents/MacOS/AppleIDSettings -LaunchArguments eyJ0eXBlIjoyLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuc3lzdGVtcHJlZmVyZW5jZXMuQXBwbGVJRFNldHRpbmdzIn0=
+_accessoryupdater  1007   0.0  0.0 435321904    448   ??  S    Sat04PM   0:00.37 /usr/sbin/distnoted agent
+javienbarnes       970   0.0  0.0 435308848    224 s004  S    Sat04PM   0:00.02 -zsh
+root               962   0.0  0.0 435312496    496 s004  Ss   Sat04PM   0:00.01 login -pfl javienbarnes /bin/bash -c exec -la zsh /bin/zsh
+javienbarnes       946   0.0  0.0 435312624    224 s003  S+   Sat04PM   0:00.01 -zsh
+_applepay          931   0.0  0.0 435321440    464   ??  S    Sat04PM   0:00.37 /usr/sbin/distnoted agent
+root               938   0.0  0.0 435313056    496 s003  Ss   Sat04PM   0:00.01 login -pfl javienbarnes /bin/bash -c exec -la zsh /bin/zsh
+javienbarnes       932   0.0  0.0 435312576    224 s002  S+   Sat04PM   0:00.02 -zsh
+root               929   0.0  0.0 435313072    496 s002  Ss   Sat04PM   0:00.01 login -pfl javienbarnes /bin/bash -c exec -la zsh /bin/zsh
+javienbarnes       922   0.0  0.0 435379792   1184   ??  S    Sat04PM   0:00.40 /usr/libexec/studentd
+javienbarnes       921   0.0  0.0 435552176   1120   ??  Ss   Sat04PM   0:00.30 /System/Applications/System Settings.app/Contents/PlugIns/GeneralSettings.appex/Contents/MacOS/GeneralSettings -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5zeXN0ZW1wcmVmZXJlbmNlcy5HZW5lcmFsU2V0dGluZ3MiLCJ0eXBlIjoyLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=
+javienbarnes       919   0.0  0.0 435366288    992   ??  S    Sat04PM   0:00.50 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+javienbarnes       894   0.0  0.0 435309280    224 s001  S+   Sat04PM   0:00.01 -zsh
+root               893   0.0  0.0 435312464    496 s001  Ss   Sat04PM   0:00.01 login -pf javienbarnes
+javienbarnes       887   0.0  0.0 435377216    480   ??  S    Sat04PM   0:00.18 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+javienbarnes       865   0.0  0.0 440329088   6192   ??  Ss   Sat04PM   0:03.04 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU
+javienbarnes       864   0.0  0.0 439705248   2704   ??  Ss   Sat04PM   0:04.06 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+_modelmanagerd     862   0.0  0.0 435322016    432   ??  S    Sat04PM   0:00.37 /usr/sbin/distnoted agent
+_modelmanagerd     861   0.0  0.0 435332432    480   ??  Ss   Sat04PM   0:00.04 /System/Library/ExtensionKit/Extensions/HostInferenceProviderService.appex/Contents/MacOS/HostInferenceProviderService -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5Ib3N0SW5mZXJlbmNlUHJvdmlkZXJTZXJ2aWNlIiwidHlwZSI6OCwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2V9
+javienbarnes       856   0.0  0.0 435376944   4512   ??  S    Sat04PM   0:04.27 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+root               854   0.0  0.0 435337984    400   ??  Ss   Sat04PM   0:00.04 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+javienbarnes       849   0.0  0.0 435332880   1728   ??  S    Sat04PM   0:00.40 /usr/libexec/avconferenced
+javienbarnes       848   0.0  0.0 435321440    720   ??  S    Sat04PM   0:00.04 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+_installcoordinationd   822   0.0  0.0 435321392    496   ??  S    Sat04PM   0:00.37 /usr/sbin/distnoted agent
+javienbarnes       816   0.0  0.0 435308832    224 s000  S+   Sat04PM   0:00.02 -zsh
+javienbarnes       810   0.0  0.0 435359040    544   ??  S    Sat04PM   0:00.16 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+javienbarnes       809   0.0  0.0 435358208   3552   ??  S    Sat04PM   0:00.90 /System/Library/Frameworks/Translation.framework/translationd
+root               796   0.0  0.0 435308224    496 s000  Ss   Sat04PM   0:00.01 login -pfl javienbarnes /bin/bash -c exec -la zsh /bin/zsh
+javienbarnes       779   0.0  0.0 435366064   3488   ??  S    Sat04PM   0:01.30 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+javienbarnes       776   0.0  0.0 435362304   3360   ??  S    Sat04PM   0:01.25 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+javienbarnes       774   0.0  0.0 435383552    848   ??  Ss   Sat04PM   0:00.13 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension -AppleLanguages ("en-US")
+javienbarnes       773   0.0  0.0 435439680   1472   ??  S    Sat04PM   0:00.43 /System/Library/PrivateFrameworks/TextInputUIMacHelper.framework/Versions/A/XPCServices/CursorUIViewService.xpc/Contents/MacOS/CursorUIViewService
+javienbarnes       772   0.0  0.0 435340192    560   ??  S    Sat04PM   0:00.04 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+javienbarnes       764   0.0  0.0 435357936    864   ??  S    Sat04PM   0:00.24 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+javienbarnes       762   0.0  0.0 435398464   2672   ??  S    Sat04PM   0:01.45 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent --launchd
+javienbarnes       759   0.0  0.0 435828176   3552   ??  S    Sat04PM   0:03.32 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+javienbarnes       758   0.0  0.0 435360880   3200   ??  S    Sat04PM   0:01.36 /System/Library/PrivateFrameworks/MapsSync.framework/mapssyncd
+javienbarnes       757   0.0  0.0 435410016   1072   ??  Ss   Sat04PM   0:00.55 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+javienbarnes       755   0.0  0.0 435532928   3680   ??  S    Sat04PM   0:34.59 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+javienbarnes       751   0.0  0.0 435614464   1696   ??  Ss   Sat04PM   0:01.38 /System/Applications/Photos.app/Contents/PlugIns/PhotosReliveWidget.appex/Contents/MacOS/PhotosReliveWidget -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5QaG90b3MuUGhvdG9zUmVsaXZlV2lkZ2V0IiwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2UsInR5cGUiOjF9
+javienbarnes       738   0.0  0.0 435356208   1232   ??  S    Sat04PM   0:01.76 /System/Library/CoreServices/lockoutagent
+javienbarnes       740   0.0  0.0 435322880   1968   ??  S    Sat04PM   0:00.37 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+_fpsd              741   0.0  0.0 435338336    448   ??  Ss   Sat04PM   0:00.16 /System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fairplayd
+javienbarnes       734   0.0  0.0 435360512   2560   ??  S    Sat04PM   0:01.02 /System/Library/CoreServices/destinationd
+javienbarnes       732   0.0  0.0 435377680   5968   ??  S    Sat04PM   0:13.30 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+javienbarnes       729   0.0  0.0 435360704   2000   ??  S    Sat04PM   0:00.17 /System/Library/PrivateFrameworks/StatusKit.framework/StatusKitAgent
+javienbarnes       727   0.0  0.0 435369552   4016   ??  S    Sat04PM   0:01.69 /usr/sbin/usernoted
+javienbarnes       726   0.0  0.0 435363920   2736   ??  S    Sat04PM   0:00.74 /System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent
+javienbarnes       721   0.0  0.0 435355456    688   ??  S    Sat04PM   0:00.05 /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent
+javienbarnes       720   0.0  0.0 435662480   3392   ??  S    Sat04PM   0:03.64 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+_oahd              715   0.0  0.0 435321984    464   ??  Ss   Sat04PM   0:00.03 /usr/libexec/rosetta/oahd
+javienbarnes       712   0.0  0.0 435550336   1632   ??  S    Sat04PM   0:00.32 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/AXVisualSupportAgent.app/Contents/MacOS/AXVisualSupportAgent launchd -s
+javienbarnes       711   0.0  0.0 435358384   4128   ??  S    Sat04PM   0:02.70 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+javienbarnes       710   0.0  0.0 435378224   3808   ??  S    Sat04PM   0:03.06 /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod
+_nearbyd           705   0.0  0.0 435367264    864   ??  Ss   Sat04PM   0:00.77 /usr/libexec/nearbyd
+javienbarnes       694   0.0  0.0 435367536   1104   ??  S    Sat04PM   0:00.10 /System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent --launchd
+root               701   0.0  0.0 435367024   4688   ??  Ss   Sat04PM   0:04.21 /usr/libexec/gamepolicyd
+javienbarnes       702   0.0  0.0 435358288   1392   ??  S    Sat04PM   0:00.67 /System/Library/CoreServices/UIKitSystem.app/Contents/MacOS/UIKitSystem system_app_start
+javienbarnes       688   0.0  0.0 435523312   6048   ??  S    Sat04PM   0:04.35 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+root               691   0.0  0.0 435323056    496   ??  Ss   Sat04PM   0:00.04 automountd
+javienbarnes       685   0.0  0.0 435355664   1344   ??  S    Sat04PM   0:00.13 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+root               682   0.0  0.0 435331664   1824   ??  Ss   Sat04PM   0:00.48 /usr/sbin/filecoordinationd
+javienbarnes       676   0.0  0.0 435379040    448   ??  S    Sat04PM   0:00.38 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/fontworker
+javienbarnes       677   0.0  0.0 435392224   1136   ??  S    Sat04PM   0:00.53 /System/Library/CoreServices/WallpaperAgent.app/Contents/MacOS/WallpaperAgent
+javienbarnes       675   0.0  0.0 435592944    816   ??  S    Sat04PM   0:00.27 /System/Library/CoreServices/AccessibilityUIServer.app/Contents/MacOS/AccessibilityUIServer
+_ctkd              673   0.0  0.0 435322176    864   ??  Ss   Sat04PM   0:00.05 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -st
+javienbarnes       674   0.0  0.0 435355552   2016   ??  S    Sat04PM   0:02.33 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+javienbarnes       669   0.0  0.0 435751600   7184   ??  S    Sat04PM   0:11.71 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+javienbarnes       663   0.0  0.0 435601760    976   ??  S    Sat04PM   0:00.28 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+javienbarnes       662   0.0  0.0 435356048    608   ??  S    Sat04PM   0:00.72 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+javienbarnes       659   0.0  0.0 435353968   1792   ??  Ss   Sat04PM   0:00.66 /System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService
+javienbarnes       658   0.0  0.0 435401424   1712   ??  S    Sat04PM   0:00.80 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+javienbarnes       657   0.0  0.0 435753232   6464   ??  S    Sat04PM   0:06.26 /System/Applications/Music.app/Contents/MacOS/Music
+javienbarnes       654   0.0  0.0 435745184   3984   ??  S    Sat04PM   0:03.70 /System/Applications/Messages.app/Contents/MacOS/Messages
+javienbarnes       652   0.0  0.0 435681568   1360   ??  S    Sat04PM   0:01.19 /System/Applications/System Settings.app/Contents/MacOS/System Settings
+javienbarnes       645   0.0  0.0 435393536   2656   ??  S    Sat04PM   0:03.39 /usr/libexec/sharingd
+javienbarnes       642   0.0  0.0 435377584   4880   ??  S    Sat04PM   0:02.44 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+javienbarnes       637   0.0  0.0 435356608   1744   ??  S    Sat04PM   0:00.20 /System/Library/CoreServices/sharedfilelistd
+javienbarnes       636   0.0  0.0 435368656   2912   ??  S    Sat04PM   0:00.83 /usr/libexec/nsurlsessiond
+javienbarnes       635   0.0  0.0 435359712   3216   ??  S    Sat04PM   0:15.35 /usr/libexec/trustd --agent
+javienbarnes       634   0.0  0.0 435719200   4048   ??  S    Sat04PM   0:03.48 /System/Applications/Notes.app/Contents/MacOS/Notes
+javienbarnes       633   0.0  0.0 440539648   5584   ??  S    Sat04PM   0:08.49 /System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/Contents/MacOS/Safari
+javienbarnes       630   0.0  0.0 435366688   3024   ??  S    Sat04PM   0:00.70 /System/Library/PrivateFrameworks/UserNotificationsCore.framework/Support/usernotificationsd
+javienbarnes       626   0.0  0.0 435429952   3728   ??  S    Sat04PM   0:02.85 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+javienbarnes       629   0.0  0.0 436086688   1872   ??  S    Sat04PM   0:04.03 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+javienbarnes       625   0.0  0.0 435406000   1104   ??  S    Sat04PM   0:01.94 /System/Library/CoreServices/talagentd
+javienbarnes       624   0.0  0.0 435392128   3296   ??  S    Sat04PM   0:02.11 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+_appleevents       617   0.0  0.0 435321824    512   ??  S    Sat04PM   0:00.37 /usr/sbin/distnoted agent
+javienbarnes       621   0.0  0.0 435367152   4704   ??  S    Sat04PM   0:02.69 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+javienbarnes       620   0.0  0.0 439234928   3232   ??  S    Sat04PM   0:05.82 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+javienbarnes       619   0.0  0.0 435366576   3184   ??  S    Sat04PM   0:02.45 /usr/libexec/rapportd
+javienbarnes       618   0.0  0.1 435995808  12672   ??  S    Sat04PM   0:08.37 /System/Applications/Maps.app/Contents/MacOS/Maps
+javienbarnes       615   0.0  0.0 435362464   2688   ??  S    Sat04PM   0:02.00 /usr/libexec/secd
+javienbarnes       616   0.0  0.0 435366736   2624   ??  S    Sat04PM   0:05.19 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd
+javienbarnes       598   0.0  0.0 435356640   1920   ??  S    Sat04PM   0:00.42 /usr/libexec/ContinuityCaptureAgent server
+javienbarnes       610   0.0  0.0 435390736   2784   ??  S    Sat04PM   0:00.99 /usr/libexec/linkd
+javienbarnes       608   0.0  0.0 435356800   3024   ??  S    Sat04PM   0:09.82 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent
+javienbarnes       607   0.0  0.0 435372336   2784   ??  S    Sat04PM   0:02.58 /System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager
+javienbarnes       606   0.0  0.0 435354432   1904   ??  S    Sat04PM   0:02.15 /usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none
+javienbarnes       605   0.0  0.0 435321904   1024   ??  S    Sat04PM   0:00.30 /usr/libexec/pboard
+_spotlight         589   0.0  0.0 435321248    512   ??  S    Sat04PM   0:00.38 /usr/sbin/distnoted agent
+javienbarnes       591   0.0  0.0 435357984   2000   ??  S    Sat04PM   0:04.45 /usr/libexec/UserEventAgent (Aqua)
+javienbarnes       596   0.0  0.0 435368064   3392   ??  S    Sat04PM   0:00.72 /usr/libexec/neagent
+javienbarnes       600   0.0  0.0 435367696    896   ??  S    Sat04PM   0:00.76 /usr/sbin/universalaccessd launchd -s
+_nsurlsessiond     587   0.0  0.0 435322096    496   ??  S    Sat04PM   0:00.38 /usr/sbin/distnoted agent
+root               582   0.0  0.0 435356208   1472   ??  Ss   Sat04PM   0:00.36 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+root               581   0.0  0.1 436744912   8944   ??  Ss   Sat04PM   0:03.54 /opt/homebrew/opt/tailscale/bin/tailscaled
+_audiomxd          574   0.0  0.0 435321200    512   ??  S    Sat04PM   0:00.38 /usr/sbin/distnoted agent
+_softwareupdate    570   0.0  0.0 435321792    464   ??  S    Sat04PM   0:00.38 /usr/sbin/distnoted agent
+root               572   0.0  0.0 435380368   2112   ??  Ss   Sat04PM   0:00.26 /usr/libexec/searchpartyd
+root               569   0.0  0.0 435356928   3328   ??  Ss   Sat04PM   0:01.05 /usr/libexec/wifianalyticsd
+root               560   0.0  0.0 435322864    688   ??  Ss   Sat04PM   0:00.04 /System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd
+_modelmanagerd     555   0.0  0.0 435388848   1136   ??  Ss   Sat04PM   0:01.20 /usr/libexec/modelmanagerd
+root               550   0.0  0.0 435310000   1472   ??  Ss   Sat04PM   0:04.37 /usr/libexec/audioclocksyncd
+_audiomxd          540   0.0  0.0 435356176   2160   ??  Ss   Sat04PM   0:00.88 /usr/libexec/audiomxd
+_driverkit         537   0.0  0.0 435239744    800   ??  Ss   Sat04PM   0:00.05 /System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/com.apple.AppleUserHIDDrivers com.apple.driverkit.AppleUserHIDDrivers 0x100000edb com.apple.AppleUserHIDDrivers
+_appleevents       546   0.0  0.0 435355824   1760   ??  Ss   Sat04PM   0:00.24 /System/Library/CoreServices/appleeventsd --server
+_cmiodalassistants   545   0.0  0.0 435356496    720   ??  Ss   Sat04PM   0:00.07 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/UVCAssistant.systemextension/Contents/MacOS/UVCAssistant
+_cmiodalassistants   544   0.0  0.0 435356448   1792   ??  Ss   Sat04PM   0:00.91 /usr/libexec/cameracaptured
+root               538   0.0  0.0 435357120   1872   ??  Ss   Sat04PM   0:02.54 /usr/sbin/WirelessRadioManagerd
+_driverkit         536   0.0  0.0 435239456    800   ??  Ss   Sat04PM   0:00.04 /System/Library/DriverExtensions/com.apple.DriverKit-IOUserDockChannelSerial.dext/com.apple.DriverKit-IOUserDockChannelSerial com.apple.IOUserDockChannelSerial 0x100000ed8 com.apple.DriverKit-IOUserDockChannelSerial
+root               532   0.0  0.0 435357392   1664   ??  Ss   Sat04PM   0:02.66 /System/Library/CoreServices/TimeMachine/backupd
+_coreaudiod        529   0.0  0.0 435388192    544   ??  Ss   Sat04PM   0:00.04 Core Audio Driver (ParrotAudioPlugin.driver)
+_cmiodalassistants   521   0.0  0.0 435340000    560   ??  Ss   Sat04PM   0:00.04 /usr/libexec/com.apple.cmio.videodriverkithostextension.systemextension/Contents/MacOS/com.apple.cmio.videodriverkithostextension
+_locationd         515   0.0  0.0 435321328    512   ??  S    Sat04PM   0:00.38 /usr/sbin/distnoted agent
+_coreaudiod        504   0.0  0.0 435321936    496   ??  S    Sat04PM   0:00.39 /usr/sbin/distnoted agent
+root               509   0.0  0.0 435357184   1472   ??  Ss   Sat04PM   0:01.47 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+root               503   0.0  0.0 435322224    640   ??  Ss   Sat04PM   0:00.38 /usr/sbin/mDNSResponderHelper
+root               498   0.0  0.0 435321824   1280   ??  Ss   Sat04PM   0:00.24 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+root               492   0.0  0.0 435320928    544   ??  Ss   Sat04PM   0:00.07 /usr/sbin/cron
+_cmiodalassistants   491   0.0  0.0 435321904    496   ??  S    Sat04PM   0:00.39 /usr/sbin/distnoted agent
+_biome             485   0.0  0.0 435356160   2464   ??  Ss   Sat04PM   0:02.74 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/biomed
+root               487   0.0  0.0 435364208   3408   ??  Ss   Sat04PM   0:03.65 /usr/libexec/syspolicyd
+root               459   0.0  0.0 435322112    544   ??  S    Sat04PM   0:00.44 /usr/sbin/distnoted agent
+_windowserver      440   0.0  0.0 435321408    448   ??  S    Sat04PM   0:00.39 /usr/sbin/distnoted agent
+root               464   0.0  0.0 435321488    528   ??  Ss   Sat04PM   0:00.02 /usr/libexec/ApplicationFirewall/socketfilterfw
+_mdnsresponder     438   0.0  0.0 435369904   4224   ??  Ss   Sat04PM   0:14.21 /usr/sbin/mDNSResponder
+root               431   0.0  0.0 435360224   2624   ??  Ss   Sat04PM   0:01.87 /usr/libexec/eligibilityd
+_nsurlsessiond     427   0.0  0.0 435368960   3344   ??  Ss   Sat04PM   0:01.21 /usr/libexec/nsurlsessiond --privileged
+root               423   0.0  0.0 435354544    624   ??  Ss   Sat04PM   0:52.28 /usr/libexec/apfsd
+root               420   0.0  0.0 435365488   2256   ??  Ss   Sat04PM   0:02.21 /usr/libexec/lsd runAsRoot
+_coreaudiod        418   0.0  0.0 435388432   2560   ??  Ss   Sat04PM   0:10.93 /usr/sbin/coreaudiod
+_trustd            417   0.0  0.0 435435632   3856   ??  Ss   Sat04PM   1:51.60 /usr/libexec/trustd
+_usbmuxd           379   0.0  0.0 435366256    416   ??  Ss   Sat04PM   0:00.17 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+_corespeechd       356   0.0  0.0 435350336    464   ??  Ss   Sat04PM   0:00.02 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+_timed             378   0.0  0.0 435355680   1792   ??  Ss   Sat04PM   0:00.84 /usr/libexec/timed
+_distnote          389   0.0  0.0 435321968    800   ??  Ss   Sat04PM   0:02.37 /usr/sbin/distnoted daemon
+root               414   0.0  0.0 435367760   2976   ??  Ss   Sat04PM   0:38.30 /usr/libexec/runningboardd
+javienbarnes       410   0.0  0.1 435714048  11856   ??  Ss   Sat04PM   1:10.02 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+root               408   0.0  0.0 435366752   2400   ??  Ss   Sat04PM   0:03.64 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd system
+root               348   0.0  0.0 435321808    480   ??  Ss   Sat04PM   0:00.02 /usr/libexec/IOMFB_bics_daemon
+root               404   0.0  0.0 435355632   2528   ??  Ss   Sat04PM   0:00.52 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/com.apple.cmio.registerassistantservice
+root               341   0.0  0.0 435366768   2256   ??  Ss   Sat04PM   0:01.01 /usr/sbin/systemstats --daemon
+root               383   0.0  0.0 435357328    944   ??  Ss   Sat04PM   0:01.03 /usr/libexec/nesessionmanager
+root               338   0.0  0.0 435362496   2320   ??  Ss   Sat04PM   0:01.50 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+root               394   0.0  0.0 435356704    640   ??  Ss   Sat04PM   0:00.10 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+root               377   0.0  0.0 435356544   2480   ??  Ss   Sat04PM   0:04.57 /System/Library/CoreServices/launchservicesd
+root               372   0.0  0.0 435365408   5616   ??  Ss   Sat04PM   0:04.41 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+root               358   0.0  0.0 435321808   1360   ??  Ss   Sat04PM   0:00.33 /usr/libexec/watchdogd
+root               399   0.0  0.0 435371392   3312   ??  Ss   Sat04PM   0:03.03 /usr/sbin/bluetoothd
+root               403   0.0  0.0 435323632    544   ??  Ss   Sat04PM   0:00.79 /usr/libexec/AirPlayXPCHelper
+root               393   0.0  0.0 435321488   1520   ??  Ss   Sat04PM   0:00.15 /System/Library/CoreServices/logind
+root               385   0.0  0.0 435317968    416   ??  Ss   Sat04PM   0:00.03 autofsd
+root               371   0.0  0.0 435355264   1616   ??  Ss   Sat04PM   0:01.53 /usr/libexec/thermalmonitord
+root               380   0.0  0.0 435356800   2080   ??  Ss   Sat04PM   0:01.60 /usr/sbin/securityd -i
+root               387   0.0  0.0 435343232    608   ??  Ss   Sat04PM   0:00.05 /usr/libexec/corerepaird
+root               376   0.0  0.0 435436896   4016   ??  Ss   Sat04PM   0:05.19 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+root               395   0.0  0.0 435317488    416   ??  Ss   Sat04PM   0:00.02 /usr/sbin/KernelEventAgent
+root               352   0.0  0.0 435355504    512   ??  Ss   Sat04PM   0:00.20 /usr/libexec/remoted
+root               347   0.0  0.0 435357856   3120   ??  Ss   Sat04PM   0:07.23 /System/Library/CoreServices/powerd.bundle/powerd
+root               364   0.0  0.0 435359312    560   ??  Ss   Sat04PM   0:00.85 /usr/libexec/kernelmanagerd
+root              6472   0.0  0.0        0      0   ??  Z    10:24PM   0:00.00 <defunct>
+root              7340   0.0  0.0 435299872   1584 s005  R+   10:27PM   0:00.00 ps auxww
+root              2212   0.0  0.0        0      0   ??  Z     8:40PM   0:00.00 <defunct>
+javienbarnes      7339   0.0  0.0 435296256   1632 s005  S+   10:27PM   0:00.00 /bin/bash ./reflex.sh ps auxww > /Users/javienbarnes/felicity_forge/system_audit/process_list.txt
+root              7192   0.0  0.1 435358160  11200   ??  Ss   10:27PM   0:00.13 /usr/libexec/ospredictiond
+_cmiodalassistants  7191   0.0  0.0 435357712   5536   ??  S    10:27PM   0:00.10 /usr/libexec/trustd --agent
+_cmiodalassistants  7190   0.0  0.0 435321584   2064   ??  S    10:27PM   0:00.04 /usr/sbin/cfprefsd agent
+_cmiodalassistants  7189   0.0  0.0 435365632   6016   ??  S    10:27PM   0:00.05 /usr/libexec/secinitd
+_cmiodalassistants  7188   0.0  0.1 435434560  11680   ??  S    10:27PM   0:00.12 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+root              7187   0.0  0.0 435355232   3200   ??  Ss   10:27PM   0:00.04 /usr/libexec/trustdFileHelper
+_locationd        7186   0.0  0.0 435357488   5648   ??  S    10:27PM   0:00.16 /usr/libexec/trustd --agent
+_locationd        7185   0.0  0.0 435321712   2032   ??  S    10:27PM   0:00.06 /usr/sbin/cfprefsd agent
+_locationd        7184   0.0  0.0 435365728   6016   ??  S    10:27PM   0:00.10 /usr/libexec/secinitd
+_locationd        7183   0.0  0.1 435434752  11504   ??  S    10:27PM   0:00.20 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+javienbarnes      7180   0.0  0.0 435479856   6704   ??  S    10:26PM   0:00.11 /System/Cryptexes/App/usr/libexec/com.apple.Safari.History
+javienbarnes      7179   0.0  0.1 435365600   9040   ??  S    10:26PM   0:00.22 /System/Library/CoreServices/mapspushd
+javienbarnes      7178   0.0  0.0 435317328   4944   ??  S    10:26PM   0:00.05 /usr/libexec/feedbackd
+javienbarnes      7177   0.0  0.0 435356512    560   ??  Ss   10:26PM   0:00.18 /System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesBlastDoorService.xpc/Contents/MacOS/MessagesBlastDoorService
+javienbarnes      7176   0.0  0.0 435355312   6000   ??  S    10:26PM   0:00.14 /System/Library/PrivateFrameworks/BusinessChatService.framework/businessservicesd
+javienbarnes      7175   0.0  0.0 435322224   4000   ??  S    10:26PM   0:00.08 /usr/libexec/assessmentagent
+javienbarnes      7174   0.0  0.0 435331968   7440   ??  S    10:26PM   0:00.13 /System/Library/PrivateFrameworks/SocialLayer.framework/sociallayerd.app/Contents/MacOS/sociallayerd
+root              7173   0.0  0.0 435322208   2464   ??  Ss   10:26PM   0:00.03 /usr/libexec/usermanagerd -t 15
+root              7172   0.0  0.0 435301744   2064   ??  Ss   10:26PM   0:00.02 /usr/libexec/online-auth-agent
+javienbarnes      7171   0.0  0.1 435530512   8736   ??  S    10:26PM   0:00.29 /System/Cryptexes/App/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+root              7170   0.0  0.0 435356448   8256   ??  Ss   10:26PM   0:02.01 /usr/libexec/assetsubscriptiond
+javienbarnes      7169   0.0  0.0 435356192   7536   ??  S    10:26PM   0:00.29 /usr/libexec/siriknowledged
+javienbarnes      7168   0.0  0.1 435394688  10672   ??  Ss   10:25PM   0:00.41 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService
+root              7050   0.0  0.0 435321792   1616   ??  Us   10:25PM   0:00.04 /usr/libexec/logd_helper
+root              6836   0.0  0.0 435355760   3888   ??  Ss   10:25PM   0:00.08 /usr/libexec/powerexperienced
+javienbarnes      6834   0.0  0.0 435355440   4208   ??  S    10:25PM   0:00.11 /System/Library/PrivateFrameworks/AXAssetLoader.framework/Support/axassetsd
+javienbarnes      6833   0.0  0.0 435332144   5056   ??  S    10:25PM   0:00.14 /usr/libexec/pkd
+javienbarnes      6832   0.0  0.0 435386272   4800   ??  Ss   10:25PM   0:00.08 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+javienbarnes      6831   0.0  0.0 435386848   4800   ??  Ss   10:25PM   0:00.09 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+root              6830   0.0  0.0 435338016   2848   ??  Ss   10:25PM   0:00.10 /usr/libexec/containermanagerd_system --runmode=privileged --user-container-mode=current --bundle-container-mode=global --bundle-container-owner=_appinstalld --system-container-mode=none
+root              6829   0.0  0.0 435355808   3584   ??  Ss   10:25PM   0:00.11 /System/Library/PrivateFrameworks/Ecosystem.framework/Support/ecosystemd
+javienbarnes      6828   0.0  0.0 435359152   4640   ??  Ss   10:25PM   0:00.48 /System/Library/PrivateFrameworks/TrialServer.framework/Versions/A/XPCServices/TrialArchivingService.xpc/Contents/MacOS/TrialArchivingService
+javienbarnes      6827   0.0  0.0 435356224   4896   ??  S    10:25PM   0:00.26 /usr/libexec/triald
+root              6826   0.0  0.0 435355536   3776   ??  Ss   10:25PM   0:00.11 /System/Library/PrivateFrameworks/EcosystemAnalytics.framework/Support/ecosystemanalyticsd
+javienbarnes      6823   0.0  0.0 435364816   5248   ??  S    10:25PM   0:00.14 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar
+javienbarnes      6822   0.0  0.0 435344944   3376   ??  Ss   10:25PM   0:00.07 /System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService
+javienbarnes      6821   0.0  0.0 435356848   4240   ??  S    10:25PM   0:00.09 /usr/libexec/swtransparencyd
+javienbarnes      6819   0.0  0.0 435463488   3888   ??  S    10:25PM   0:00.08 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService
+javienbarnes      6818   0.0  0.0 435355440   4912   ??  S    10:25PM   0:00.06 /System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/Support/recentsd
+javienbarnes      6817   0.0  0.0 435366192   5200   ??  S    10:25PM   0:00.06 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+javienbarnes      6816   0.0  0.0 435361776   5312   ??  S    10:25PM   0:00.21 /System/Library/Frameworks/Contacts.framework/Support/postersyncd

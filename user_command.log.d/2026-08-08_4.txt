@@ -1,0 +1,1 @@
+Technically, I execute shell commands and interact with the filesystem by interpreting user input through a predefined set of operational boundaries. Commands are executed via the

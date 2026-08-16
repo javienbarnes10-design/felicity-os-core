@@ -1,0 +1,44 @@
+Bluetooth:
+
+      Bluetooth Controller:
+          Address: A0:9A:8E:0A:8E:DA
+          State: On
+          Chipset: BCM_4388C2
+          Discoverable: Off
+          Firmware Version: 23.3.214.1298
+          Product ID: 0x4A41
+          Supported services: 0x392039 < HFP AVRCP A2DP HID Braille LEA AACP GATT SerialPort >
+          Transport: PCIe
+          Vendor ID: 0x004C (Apple)
+      Connected:
+          Felicity's truck:
+              Address: 00:22:A0:CA:44:E6
+              Minor Type: Handsfree
+              RSSI: -85
+              Services: 0x800019 < HFP AVRCP A2DP ACL >
+      Not Connected:
+          BH378:
+              Address: F4:4E:FD:11:9E:C7
+              Minor Type: Headset
+          DEA700:
+              Address: 28:63:BD:37:90:98
+              Minor Type: Handsfree
+          DEA700:
+              Address: 44:1D:B1:19:3D:46
+              Minor Type: Handsfree
+          DEA700:
+              Address: 28:63:BD:56:02:20
+              Minor Type: Handsfree
+          MB Bluetooth 18405:
+              Address: E8:4F:25:89:FA:79
+              Vendor ID: 0x017C
+              Product ID: 0x5678
+              Firmware Version: 1.3.3
+              Minor Type: Handsfree
+          Nova S50:
+              Address: F4:4E:FD:E3:54:52
+              Vendor ID: 0x10D6
+              Product ID: 0xB009
+              Firmware Version: 1.0.0
+              Minor Type: Speaker
+

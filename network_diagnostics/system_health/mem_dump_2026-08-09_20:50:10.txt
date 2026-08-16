@@ -1,0 +1,13 @@
+kern.ipc.mb_memory_pressure_percentage: 80
+kern.memorystatus.sysprocs_idle_delay_time_ns: 10
+kern.memorystatus.apps_idle_delay_time_ns: 10
+kern.memorystatus.kill_on_sustained_pressure_count: 0
+kern.memorystatus.kill_on_sustained_pressure_window_s: 600
+kern.memorystatus.kill_on_sustained_pressure_delay_ms: 500
+kern.dtrace.buffer_memory_inuse: 0
+kern.dtrace.buffer_memory_maxsize: 5726623061
+kern.memorystatus_level: 15
+kern.memorystatus_purge_on_warning: 2
+kern.memorystatus_purge_on_urgent: 5
+kern.memorystatus_purge_on_critical: 8
+vm.memory_pressure: 0
