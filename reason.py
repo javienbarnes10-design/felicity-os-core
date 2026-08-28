@@ -22,7 +22,7 @@ import urllib.request
 
 OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
 MODEL = "amelia-14b:latest"
-TIMEOUT_SECONDS = 30
+TIMEOUT_SECONDS = 1200
 
 FALLBACK = "NO_REASONING_AVAILABLE"
 

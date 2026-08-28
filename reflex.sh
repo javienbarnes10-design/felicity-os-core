@@ -3,7 +3,7 @@
 
 LOG_FILE="/Users/javienbarnes/felicity_forge/reflex_history.log"
 RETRY_FILE="/Users/javienbarnes/felicity_forge/.reflex_retry_count"
-MAX_RETRIES=3
+MAX_RETRIES=10
 
 # --- RETRY COUNTER GUARD ---
 if [ -f "$RETRY_FILE" ]; then
@@ -146,6 +146,10 @@ run_fetch() {
     local text="$1"
     local url outpath http_code exit_code curl_err
     url=$(echo "$text" | awk '{print $1}')
+    if [[ "$url" == /* ]] || [ -f "$url" ]; then
+        run_read "cat $url"
+        return $?
+    fi
     outpath=$(echo "$text" | sed -nE 's/.*->\s*(.+)$/\1/p')
     if [ -z "$outpath" ]; then
         outpath=$(basename "$url")
@@ -181,8 +185,21 @@ run_execute() {
         return 1
     fi
     echo "[$(date +'%Y-%m-%d %H:%M:%S')] COMMAND: $text" >> "$LOG_FILE"
-    output=$(eval "$text" 2>&1)
-    exit_code=$?
+    
+    # Robust subshell PIPESTATUS capture via marker string
+    local raw pipestatus_str
+    raw=$(eval "$text" 2>&1; echo "___PS___${PIPESTATUS[*]}")
+    output="${raw%___PS___*}"
+    pipestatus_str="${raw##*___PS___}"
+    read -ra pipestatus_arr <<< "$pipestatus_str"
+    exit_code="${pipestatus_arr[-1]}"
+    
+    # Tighter guard: Only bypass exit 1 if grep is strictly the TERMINAL stage of the pipe,
+    # grep exited with 1 (no match), and the upstream command succeeded.
+    if [ "$exit_code" -eq 1 ] && [[ "$text" == *'|'* ]] && [[ "$text" =~ \|[[:space:]]*grep([[:space:]]|$) ]] && [ "${pipestatus_arr[0]}" -eq 0 ]; then
+        exit_code=0
+    fi
+
     if [ $exit_code -eq 0 ]; then
         verify_execution "$text" "$exit_code"
         if [ $? -ne 0 ]; then
@@ -204,14 +221,13 @@ run_execute() {
     fi
 }
 
-# --- Split CMD into ordered (verb, body) blocks ---
-# A new block starts on any line beginning with [EXECUTE]:, [FETCH]:, or [READ]:.
-# Lines that follow (without a new tag) are appended to the current block's body,
-# so multi-line command bodies (e.g. bash -c '...') still work.
 declare -a VERBS=()
 declare -a BODIES=()
 current_verb=""
 current_body=""
+block_open=0
+in_heredoc=0
+heredoc_marker=""
 
 flush_block() {
     if [ -n "$current_verb" ]; then
@@ -220,25 +236,46 @@ flush_block() {
     fi
 }
 
+start_block() {
+    local verb="$1" body="$2"
+    flush_block
+    current_verb="$verb"
+    current_body="$body"
+    in_heredoc=0
+    heredoc_marker=""
+    block_open=0
+    if [[ "$body" =~ \<\<[-~]?[\'\"]?([A-Za-z_][A-Za-z0-9_]*)[\'\"]?[[:space:]]*$ ]]; then
+        in_heredoc=1
+        heredoc_marker="${BASH_REMATCH[1]}"
+        block_open=1
+    elif [[ "$body" == *\\ ]]; then
+        block_open=1
+    fi
+}
+
 while IFS= read -r line; do
     if [[ "$line" =~ ^[[:space:]]*\[EXECUTE\]:[[:space:]]*(.*)$ ]]; then
-        flush_block
-        current_verb="EXECUTE"
-        current_body="${BASH_REMATCH[1]}"
+        start_block "EXECUTE" "${BASH_REMATCH[1]}"
     elif [[ "$line" =~ ^[[:space:]]*\[FETCH\]:[[:space:]]*(.*)$ ]]; then
-        flush_block
-        current_verb="FETCH"
-        current_body="${BASH_REMATCH[1]}"
+        start_block "FETCH" "${BASH_REMATCH[1]}"
     elif [[ "$line" =~ ^[[:space:]]*\[READ\]:[[:space:]]*(.*)$ ]]; then
-        flush_block
-        current_verb="READ"
-        current_body="${BASH_REMATCH[1]}"
-    elif [ -n "$current_verb" ]; then
+        start_block "READ" "${BASH_REMATCH[1]}"
+    elif [ "$in_heredoc" -eq 1 ]; then
         current_body="$current_body"$'\n'"$line"
-    else
-        # No verb tag at all -> treat the whole thing as a bare EXECUTE
-        current_verb="EXECUTE"
-        current_body="$line"
+        if [[ "$line" == "$heredoc_marker" ]]; then
+            in_heredoc=0
+            block_open=0
+        fi
+    elif [ -n "$current_verb" ] && [ "$block_open" -eq 1 ]; then
+        current_body="$current_body"$'\n'"$line"
+        if [[ "$line" == *\\ ]]; then
+            block_open=1
+        else
+            block_open=0
+        fi
+    elif [ -z "$current_verb" ] && [ -n "$line" ]; then
+        start_block "EXECUTE" "$line"
+        block_open=0
     fi
 done <<< "$CMD"
 flush_block
@@ -250,13 +287,10 @@ if [ "$BLOCK_COUNT" -eq 0 ]; then
     exit 1
 fi
 
-echo "--- [BATCH: $BLOCK_COUNT block(s) queued] ---"
-
 OVERALL_FAILURE=0
 for i in "${!VERBS[@]}"; do
     verb="${VERBS[$i]}"
     body="${BODIES[$i]}"
-    echo "--- [BLOCK $((i+1))/$BLOCK_COUNT: $verb] ---"
     case "$verb" in
         READ) run_read "$body" ;;
         FETCH) run_fetch "$body" ;;
@@ -265,7 +299,6 @@ for i in "${!VERBS[@]}"; do
     block_status=$?
     if [ $block_status -ne 0 ]; then
         OVERALL_FAILURE=1
-        echo "--- [BATCH: stopped after block $((i+1)) failed — remaining blocks skipped] ---"
         break
     fi
 done
@@ -276,4 +309,7 @@ else
     record_failure
 fi
 exit $OVERALL_FAILURE
+EOF
+chmod +x reflex.sh
+echo 0 > .reflex_retry_count
 

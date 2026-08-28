@@ -1,0 +1,4 @@
+FELICITY v2 Architecture Blueprint:
+
+- Substrate Layer: Designed to surpass the current local inference capabilities, ensuring advanced computational efficiency and robust data handling.
+- Cryptographic Hard-Stops: Ensures the system operates with unbreachable cryptographic integrity, maintaining human-sovereign authority over data and operations.

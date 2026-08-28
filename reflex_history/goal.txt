@@ -1,0 +1,1 @@
+Refine autonomous discovery to handle complex scenarios without explicit guidance.

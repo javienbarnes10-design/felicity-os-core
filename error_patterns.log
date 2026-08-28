@@ -1,350 +1,298 @@
-REPORTED_ERROR_IN_OUTPUT|exit code  — output describes a problem|TIME: 2026-07-25 12:04:24
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-07-25 12:21:27
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-07-25 12:21:49
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-07-25 12:22:13
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-07-25 12:22:34
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-07-25 12:23:00
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-07-25 12:25:34
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:25:54
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:26:16
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-07-25 12:26:38
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:27:03
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:27:28
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:27:55
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:28:38
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:29:25
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:30:16
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:30:51
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:31:28
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:32:07
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:32:53
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:33:42
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:34:17
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:34:43
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:35:27
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:36:19
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:36:53
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:37:42
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:39:29
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:40:11
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:40:50
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:41:56
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:42:40
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:43:19
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:44:08
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:44:48
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:45:32
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:46:29
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:47:10
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:48:08
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:49:02
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:49:51
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:51:51
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-25 12:52:29
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-07-26 21:04:21
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 21:12:46
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 21:13:31
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 21:14:12
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 21:14:59
-PYTHON_SYNTAX_ERROR|python source: '                                                                      ^^^'|TIME: 2026-07-26 21:16:02
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 21:16:54
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                       ^^^^'|TIME: 2026-07-26 21:17:46
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                       ^^^^'|TIME: 2026-07-26 21:18:32
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                       ^^^^'|TIME: 2026-07-26 21:19:08
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 21:19:45
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 21:20:25
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                 ^^^^'|TIME: 2026-07-26 21:21:28
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^^^'|TIME: 2026-07-26 21:22:06
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^^^'|TIME: 2026-07-26 21:22:46
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^^^'|TIME: 2026-07-26 21:23:25
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^^^'|TIME: 2026-07-26 21:24:08
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^^^'|TIME: 2026-07-26 21:24:49
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^^^'|TIME: 2026-07-26 21:25:30
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^^^'|TIME: 2026-07-26 21:26:13
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^^^'|TIME: 2026-07-26 21:26:52
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^^^'|TIME: 2026-07-26 21:27:33
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^^^'|TIME: 2026-07-26 21:28:13
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^'|TIME: 2026-07-26 21:29:04
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^'|TIME: 2026-07-26 21:29:46
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^'|TIME: 2026-07-26 21:30:31
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^'|TIME: 2026-07-26 21:31:29
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                             ^^'|TIME: 2026-07-26 21:32:14
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 21:33:00
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-07-26 21:33:42
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 21:34:32
-PYTHON_SYNTAX_ERROR|python source: '               ^^^^'|TIME: 2026-07-26 21:35:15
-PYTHON_SYNTAX_ERROR|python source: '               ^^^^'|TIME: 2026-07-26 21:35:55
-PYTHON_SYNTAX_ERROR|python source: '               ^^^^'|TIME: 2026-07-26 21:36:37
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 21:37:29
-SQLITE_MISSING_TABLE|database '/Users/javienbarnes/felicity_forge/sovereign.db' — table 'transitions' does not exist|TIME: 2026-07-26 21:38:16
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                    ^^'|TIME: 2026-07-26 21:44:00
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-07-26 21:45:37
-SQLITE_MISSING_TABLE|database '/Users/javienbarnes/felicity_forge/sovereign.db' — table 'reflex_history' does not exist|TIME: 2026-07-26 22:11:14
-SQLITE_MISSING_TABLE|database '/Users/javienbarnes/felicity_forge/sovereign.db' — table 'transitions' does not exist|TIME: 2026-07-26 22:13:43
-SHELL_SYNTAX_ERROR|near: './reflex.sh: eval: line 125: syntax error near unexpected token `)''|TIME: 2026-07-26 22:24:43
-SHELL_SYNTAX_ERROR|near: 'Error: in prepare, near "active": syntax error'|TIME: 2026-07-26 22:30:31
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:31:24
-SHELL_SYNTAX_ERROR|near: './reflex.sh: eval: line 126: syntax error: unexpected end of file'|TIME: 2026-07-26 22:32:28
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:38:50
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:42:32
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:42:57
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:43:23
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:43:52
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:44:36
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:45:11
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:45:46
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:46:15
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:46:43
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:47:09
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:47:37
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:48:08
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:48:33
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:49:02
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:49:27
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:49:58
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:50:24
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:50:56
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:51:25
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:51:51
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:52:16
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:52:40
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:53:08
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:53:32
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:53:58
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:54:24
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:54:47
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:55:12
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:55:36
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:56:02
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:56:26
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:56:49
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:57:20
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:57:54
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 22:59:44
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:00:38
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:01:42
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:02:55
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:04:24
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:04:51
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:05:11
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:05:53
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:06:19
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:06:48
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:07:28
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:07:59
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:10:18
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:14:19
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:15:39
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:15:56
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:17:01
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:17:44
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:18:10
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:18:31
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:18:52
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:19:14
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:19:42
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:20:08
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:20:40
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:21:03
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:22:12
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:22:32
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:22:52
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:33:46
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-26 23:41:50
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 00:01:45
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 00:11:24
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 00:12:42
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 02:31:18
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 06:07:53
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 08:43:55
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 11:38:54
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 14:00:17
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 14:27:15
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 14:27:46
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 14:28:15
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 14:28:46
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 14:29:16
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 14:29:45
-SHELL_SYNTAX_ERROR|near: 'SHELL_SYNTAX_ERROR|near: './reflex.sh: eval: line 125: syntax error near unexpected token `)''|TIME: 2026-07-26 22:24:43'|TIME: 2026-07-27 14:49:42
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-07-27 17:13:08
-PYTHON_SYNTAX_ERROR|python source: '               ^^^^'|TIME: 2026-07-27 17:16:56
-PYTHON_SYNTAX_ERROR|python source: '               ^^^^'|TIME: 2026-07-27 17:36:58
-PYTHON_SYNTAX_ERROR|python source: '               ^^^^'|TIME: 2026-07-27 17:42:25
-PYTHON_SYNTAX_ERROR|python source: '               ^^^^'|TIME: 2026-07-27 17:48:22
-PYTHON_SYNTAX_ERROR|python source: '               ^^^^'|TIME: 2026-07-27 17:50:04
-PYTHON_SYNTAX_ERROR|python source: '               ^^^^'|TIME: 2026-07-27 17:55:55
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-07-27 18:07:16
-SHELL_SYNTAX_ERROR|near: 'SHELL_SYNTAX_ERROR|near: './reflex.sh: eval: line 125: syntax error near unexpected token `)''|TIME: 2026-07-26 22:24:43'|TIME: 2026-07-27 18:12:12
-SHELL_SYNTAX_ERROR|near: 'SHELL_SYNTAX_ERROR|near: './reflex.sh: eval: line 125: syntax error near unexpected token `)''|TIME: 2026-07-26 22:24:43'|TIME: 2026-07-31 18:48:49
-SHELL_SYNTAX_ERROR|near: 'SHELL_SYNTAX_ERROR|near: './reflex.sh: eval: line 125: syntax error near unexpected token `)''|TIME: 2026-07-26 22:24:43'|TIME: 2026-08-03 01:04:02
-PYTHON_SYNTAX_ERROR|python source: '                 ^^^^'|TIME: 2026-08-07 00:57:57
-PYTHON_SYNTAX_ERROR|python source: '                 ^^^^'|TIME: 2026-08-07 00:58:40
-PYTHON_SYNTAX_ERROR|python source: '                 ^^^^'|TIME: 2026-08-07 00:59:30
-PYTHON_SYNTAX_ERROR|python source: '                 ^^^^'|TIME: 2026-08-07 01:00:26
-PYTHON_SYNTAX_ERROR|python source: '                 ^^^^'|TIME: 2026-08-07 01:01:18
-PYTHON_SYNTAX_ERROR|python source: '                 ^^^^'|TIME: 2026-08-07 01:02:13
-PYTHON_SYNTAX_ERROR|python source: '                 ^^^^'|TIME: 2026-08-07 01:03:06
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 01:07:47
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 01:08:15
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 01:08:46
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 01:09:16
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 01:09:46
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 01:10:19
-COMMAND_NOT_FOUND|command './reflex.sh:
-./reflex.sh:
-./reflex.sh:
-./reflex.sh:
-./reflex.sh:
-./reflex.sh:'|TIME: 2026-08-07 01:31:09
-COMMAND_NOT_FOUND|command '�./reflex.sh:
-./reflex.sh:
-./reflex.sh:'|TIME: 2026-08-07 01:31:54
-COMMAND_NOT_FOUND|command './reflex.sh:
-./reflex.sh:
-./reflex.sh:
-./reflex.sh:'|TIME: 2026-08-07 01:33:51
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-07 01:35:08
-MISSING_FILE_OR_PATH|path '/reflex.sh' does not exist|TIME: 2026-08-07 01:38:32
-MISSING_FILE_OR_PATH|path './felicity_forge/wristband.sh' does not exist|TIME: 2026-08-07 01:39:51
-SHELL_SYNTAX_ERROR|near: './reflex.sh: eval: line 127: syntax error near unexpected token `(''|TIME: 2026-08-07 01:41:10
-SHELL_SYNTAX_ERROR|near: './reflex.sh: eval: line 128: syntax error: unexpected end of file'|TIME: 2026-08-07 01:43:26
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 01:44:14
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 01:45:31
-PYTHON_SYNTAX_ERROR|python source: '                             ^^^^'|TIME: 2026-08-07 02:05:03
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 02:38:13
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 02:58:48
-MISSING_FILE_OR_PATH|path '/Users/javienbarnes/felicity_forge/src/self_metrics.json' does not exist|TIME: 2026-08-07 03:49:59
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 03:50:51
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^^^^'|TIME: 2026-08-07 03:51:58
-PYTHON_RUNTIME_ERROR|python exception: ''|TIME: 2026-08-07 03:52:51
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-07 03:54:01
-SHELL_SYNTAX_ERROR|near: './reflex.sh: eval: line 229: syntax error: unexpected end of file'|TIME: 2026-08-07 03:55:18
-PYTHON_SYNTAX_ERROR|python source: '                             ^^^^'|TIME: 2026-08-07 04:12:28
-PYTHON_SYNTAX_ERROR|python source: '               ^^'|TIME: 2026-08-07 04:49:13
-COMMAND_NOT_FOUND|command '�./reflex.sh:'|TIME: 2026-08-07 10:04:42
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-07 10:05:18
-MISSING_FILE_OR_PATH|path '/Users/javienbarnes/felicity_forge/src/reflex.sh' does not exist|TIME: 2026-08-07 10:06:40
-COMMAND_NOT_FOUND|command '/Users/javienbarnes/felicity_forge/src/reflex.sh:'|TIME: 2026-08-07 10:07:21
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 10:07:47
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 10:08:12
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-07 10:09:30
-MISSING_FILE_OR_PATH|path './reflex.sh: eval: line 125: syntax error near unexpected token `)' does not exist|TIME: 2026-08-07 10:10:41
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 04:42:44
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-08-08 04:43:36
-COMMAND_NOT_FOUND|command './reflex.sh:
-./reflex.sh:'|TIME: 2026-08-08 04:44:39
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 04:45:58
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 04:46:42
-SHELL_SYNTAX_ERROR|near: './reflex.sh: eval: line 227: syntax error: unexpected end of file'|TIME: 2026-08-08 05:10:42
-COMMAND_NOT_FOUND|command './reflex.sh:
-./reflex.sh:
-./reflex.sh:'|TIME: 2026-08-08 05:11:37
-COMMAND_NOT_FOUND|command './reflex.sh:
-./reflex.sh:'|TIME: 2026-08-08 05:13:11
-COMMAND_NOT_FOUND|command './reflex.sh:
-./reflex.sh:
-./reflex.sh:
-./reflex.sh:'|TIME: 2026-08-08 05:14:12
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 05:15:13
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 05:16:16
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 05:17:10
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-08 05:18:13
-COMMAND_NOT_FOUND|command './reflex.sh:
-./reflex.sh:'|TIME: 2026-08-08 05:19:17
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 05:20:15
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 10:24:41
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 10:35:03
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-08-08 11:04:58
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-08 11:06:27
-PERMISSION_DENIED|file/path 'denied
-denied'|TIME: 2026-08-08 11:07:25
-MISSING_FILE_OR_PATH|path '/Users/javienbarnes/felicity_forge/network_analysis/china_telecom_as4134_mtr.log' does not exist|TIME: 2026-08-08 11:08:17
-DNS_RESOLUTION_FAILED|host 'unknown'|TIME: 2026-08-08 11:08:53
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:09:53
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:11:00
-PYTHON_RUNTIME_ERROR|python exception: ''|TIME: 2026-08-08 11:12:29
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-08-08 11:14:29
-REPORTED_ERROR_IN_OUTPUT|exit code 1 — output describes a problem|TIME: 2026-08-08 11:16:01
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-08 11:17:21
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-08 11:18:29
-COMMAND_NOT_FOUND|command './reflex.sh:'|TIME: 2026-08-08 11:19:17
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:22:56
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:23:49
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:24:46
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:27:49
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:28:55
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:32:36
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:34:02
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:35:18
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:36:00
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:37:14
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:41:07
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:42:00
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:43:24
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:44:18
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:45:41
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:46:49
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:47:59
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:49:11
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:50:39
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:53:45
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:54:16
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:55:59
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:57:20
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 11:58:52
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:00:02
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:01:05
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:01:33
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:02:36
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:03:44
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:05:36
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:06:10
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:08:01
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:11:25
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:12:41
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:14:10
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:16:10
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:17:40
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 12:31:29
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 15:29:35
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 15:30:45
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 15:32:37
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 15:36:37
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 15:38:16
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-08 15:41:59
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 20:45:38
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 20:46:14
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 20:47:02
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 20:49:29
-SHELL_SYNTAX_ERROR|near: 'Error: in prepare, near "AS_PATH": syntax error'|TIME: 2026-08-09 20:50:11
-PERMISSION_DENIED|file/path '13)'|TIME: 2026-08-09 20:58:44
-PERMISSION_DENIED|file/path '13)'|TIME: 2026-08-09 20:59:04
-PERMISSION_DENIED|file/path '13)'|TIME: 2026-08-09 20:59:28
-PERMISSION_DENIED|file/path '13)'|TIME: 2026-08-09 20:59:44
-PERMISSION_DENIED|file/path '13)'|TIME: 2026-08-09 21:00:10
-PERMISSION_DENIED|file/path '13)'|TIME: 2026-08-09 21:00:26
-PERMISSION_DENIED|file/path '13)'|TIME: 2026-08-09 22:15:02
-PERMISSION_DENIED|file/path '13)'|TIME: 2026-08-09 22:15:23
-PYTHON_RUNTIME_ERROR|python exception: ''|TIME: 2026-08-09 22:18:58
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:19:47
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:21:08
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:22:29
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:23:27
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:24:04
-SHELL_SYNTAX_ERROR|near: 'Error: in prepare, near "AS_PATH": syntax error'|TIME: 2026-08-09 22:24:46
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:25:52
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:27:42
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:28:59
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:30:13
-PYTHON_RUNTIME_ERROR|python exception: ''|TIME: 2026-08-09 22:34:24
-PYTHON_RUNTIME_ERROR|python exception: ''|TIME: 2026-08-09 22:35:12
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:35:53
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:44:19
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-09 22:45:24
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                             ^^^'|TIME: 2026-08-09 22:46:23
-PYTHON_SYNTAX_ERROR|python source: '                                                                                                                             ^^^'|TIME: 2026-08-09 22:48:18
-PYTHON_RUNTIME_ERROR|python exception: ''|TIME: 2026-08-09 23:22:22
-SHELL_SYNTAX_ERROR|near: './reflex.sh: line 184: 0.89%: syntax error: invalid arithmetic operator (error token is ".89%")'|TIME: 2026-08-09 23:23:00
-SHELL_SYNTAX_ERROR|near: '0.0: syntax error: invalid arithmetic operator (error token is ".0'|TIME: 2026-08-09 23:23:46
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-10 11:13:01
-REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-16 16:52:58
+SUCCESS|none|TIME: 2026-08-18 21:34:02
+OS_PERMISSION_ERROR|system execution substrate (os error 13)|TIME: 2026-08-18 21:35:17
+OS_PERMISSION_ERROR|system execution substrate (os error 13)|TIME: 2026-08-18 21:36:34
+OS_PERMISSION_ERROR|system execution substrate (os error 13)|TIME: 2026-08-18 21:38:00
+SUCCESS|none|TIME: 2026-08-18 21:38:00
+SUCCESS|none|TIME: 2026-08-18 21:42:00
+SUCCESS|none|TIME: 2026-08-18 21:44:06
+OS_PERMISSION_ERROR|system execution substrate (os error 13)|TIME: 2026-08-18 21:45:19
+OS_PERMISSION_ERROR|system execution substrate (os error 13)|TIME: 2026-08-18 21:46:26
+SUCCESS|none|TIME: 2026-08-18 21:46:31
+SUCCESS|none|TIME: 2026-08-18 21:48:10
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-18 21:48:10
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-18 21:52:32
+SUCCESS|none|TIME: 2026-08-18 21:58:12
+SUCCESS|none|TIME: 2026-08-18 21:58:12
+SUCCESS|none|TIME: 2026-08-18 21:58:12
+SUCCESS|none|TIME: 2026-08-18 22:08:35
+SUCCESS|none|TIME: 2026-08-18 22:08:35
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-18 22:12:14
+SUCCESS|none|TIME: 2026-08-18 22:13:27
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-18 22:13:28
+SUCCESS|none|TIME: 2026-08-18 22:14:32
+SUCCESS|none|TIME: 2026-08-18 22:14:32
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-18 22:25:32
+SUCCESS|none|TIME: 2026-08-18 22:26:25
+SUCCESS|none|TIME: 2026-08-18 22:26:25
+SUCCESS|none|TIME: 2026-08-18 23:45:05
+SUCCESS|none|TIME: 2026-08-18 23:45:06
+SUCCESS|none|TIME: 2026-08-18 23:45:06
+SUCCESS|none|TIME: 2026-08-18 23:46:39
+SUCCESS|none|TIME: 2026-08-18 23:46:39
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-18 23:46:39
+SUCCESS|none|TIME: 2026-08-18 23:47:46
+SUCCESS|none|TIME: 2026-08-18 23:47:46
+SUCCESS|none|TIME: 2026-08-18 23:47:46
+SUCCESS|none|TIME: 2026-08-18 23:47:46
+SUCCESS|none|TIME: 2026-08-18 23:47:46
+SUCCESS|none|TIME: 2026-08-18 23:47:47
+SUCCESS|none|TIME: 2026-08-18 23:47:47
+SUCCESS|none|TIME: 2026-08-18 23:47:47
+SUCCESS|none|TIME: 2026-08-18 23:47:47
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-18 23:47:47
+SUCCESS|none|TIME: 2026-08-18 23:48:46
+SUCCESS|none|TIME: 2026-08-18 23:48:46
+SUCCESS|none|TIME: 2026-08-18 23:48:46
+SUCCESS|none|TIME: 2026-08-18 23:48:46
+SUCCESS|none|TIME: 2026-08-18 23:48:46
+SUCCESS|none|TIME: 2026-08-19 00:02:20
+SUCCESS|none|TIME: 2026-08-19 00:02:20
+SUCCESS|none|TIME: 2026-08-19 00:02:20
+SUCCESS|none|TIME: 2026-08-19 00:02:21
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 00:02:21
+SUCCESS|none|TIME: 2026-08-19 00:03:18
+SUCCESS|none|TIME: 2026-08-19 00:03:18
+SUCCESS|none|TIME: 2026-08-19 00:03:18
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 00:03:18
+SUCCESS|none|TIME: 2026-08-19 00:04:20
+SUCCESS|none|TIME: 2026-08-19 00:04:20
+SUCCESS|none|TIME: 2026-08-19 00:04:20
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 00:04:20
+SUCCESS|none|TIME: 2026-08-19 00:04:20
+SUCCESS|none|TIME: 2026-08-19 00:12:24
+SUCCESS|none|TIME: 2026-08-19 00:12:24
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-19 00:12:25
+SUCCESS|none|TIME: 2026-08-19 00:13:34
+SUCCESS|none|TIME: 2026-08-19 00:13:34
+SUCCESS|none|TIME: 2026-08-19 00:13:35
+SUCCESS|none|TIME: 2026-08-19 00:13:35
+SUCCESS|none|TIME: 2026-08-19 00:13:35
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 00:13:35
+SUCCESS|none|TIME: 2026-08-19 00:14:53
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-19 00:14:53
+SUCCESS|none|TIME: 2026-08-19 00:14:53
+SUCCESS|none|TIME: 2026-08-19 00:32:30
+SUCCESS|none|TIME: 2026-08-19 00:32:31
+SUCCESS|none|TIME: 2026-08-19 00:32:31
+SUCCESS|none|TIME: 2026-08-19 00:32:31
+SUCCESS|none|TIME: 2026-08-19 00:32:31
+SUCCESS|none|TIME: 2026-08-19 00:32:31
+UNCLASSIFIED|path 'unknown'|TIME: 2026-08-19 00:32:31
+SUCCESS|none|TIME: 2026-08-19 00:33:39
+SUCCESS|none|TIME: 2026-08-19 00:33:39
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 00:33:39
+SUCCESS|none|TIME: 2026-08-19 00:34:49
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 00:34:50
+SUCCESS|none|TIME: 2026-08-19 00:34:50
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 01:05:43
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 01:07:50
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 01:09:24
+SUCCESS|none|TIME: 2026-08-19 01:09:24
+SUCCESS|none|TIME: 2026-08-19 01:10:10
+SUCCESS|none|TIME: 2026-08-19 01:12:20
+SUCCESS|none|TIME: 2026-08-19 01:12:20
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-19 01:12:20
+SUCCESS|none|TIME: 2026-08-19 01:15:09
+SUCCESS|none|TIME: 2026-08-19 01:15:09
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-19 01:15:09
+SUCCESS|none|TIME: 2026-08-19 01:18:24
+SUCCESS|none|TIME: 2026-08-19 01:18:24
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-19 01:18:24
+SUCCESS|none|TIME: 2026-08-19 01:18:24
+SUCCESS|none|TIME: 2026-08-19 11:34:57
+SUCCESS|none|TIME: 2026-08-19 12:54:41
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 12:54:41
+SUCCESS|none|TIME: 2026-08-19 12:55:39
+SUCCESS|none|TIME: 2026-08-19 12:55:39
+SUCCESS|none|TIME: 2026-08-19 12:55:39
+SUCCESS|none|TIME: 2026-08-19 12:55:39
+SUCCESS|none|TIME: 2026-08-19 12:55:39
+SUCCESS|none|TIME: 2026-08-19 13:10:35
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 13:11:05
+SUCCESS|none|TIME: 2026-08-19 13:11:59
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 13:12:29
+SUCCESS|none|TIME: 2026-08-19 13:13:18
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 13:13:48
+SUCCESS|none|TIME: 2026-08-19 13:13:48
+SUCCESS|none|TIME: 2026-08-19 13:22:55
+SUCCESS|none|TIME: 2026-08-19 13:22:58
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 13:22:58
+SUCCESS|none|TIME: 2026-08-19 13:24:05
+SUCCESS|none|TIME: 2026-08-19 13:24:05
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-19 13:24:05
+SUCCESS|none|TIME: 2026-08-19 13:25:40
+SUCCESS|none|TIME: 2026-08-19 13:25:40
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-19 13:25:40
+SUCCESS|none|TIME: 2026-08-19 13:25:40
+SUCCESS|none|TIME: 2026-08-26 10:15:48
+SUCCESS|none|TIME: 2026-08-26 10:20:57
+SUCCESS|none|TIME: 2026-08-26 10:22:46
+SUCCESS|none|TIME: 2026-08-26 10:22:46
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 10:40:14
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 10:41:52
+SUCCESS|none|TIME: 2026-08-26 12:25:07
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 12:25:07
+SUCCESS|none|TIME: 2026-08-26 12:25:07
+SUCCESS|none|TIME: 2026-08-26 12:27:59
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-26 12:31:59
+SUCCESS|none|TIME: 2026-08-26 12:33:16
+SUCCESS|none|TIME: 2026-08-26 12:33:16
+SUCCESS|none|TIME: 2026-08-26 12:34:21
+SUCCESS|none|TIME: 2026-08-26 12:34:21
+SUCCESS|none|TIME: 2026-08-26 12:35:21
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 12:36:33
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 12:38:02
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 12:39:23
+SUCCESS|none|TIME: 2026-08-26 12:39:23
+SUCCESS|none|TIME: 2026-08-26 12:40:30
+SUCCESS|none|TIME: 2026-08-26 12:40:30
+SUCCESS|none|TIME: 2026-08-26 12:42:25
+SUCCESS|none|TIME: 2026-08-26 12:42:25
+SUCCESS|none|TIME: 2026-08-26 12:42:25
+SUCCESS|none|TIME: 2026-08-26 12:42:25
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 12:44:14
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 12:46:17
+SUCCESS|none|TIME: 2026-08-26 12:49:11
+SUCCESS|none|TIME: 2026-08-26 12:49:12
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 12:49:12
+SUCCESS|none|TIME: 2026-08-26 12:49:12
+SUCCESS|none|TIME: 2026-08-26 12:50:48
+SUCCESS|none|TIME: 2026-08-26 12:50:49
+SUCCESS|none|TIME: 2026-08-26 12:50:49
+SUCCESS|none|TIME: 2026-08-26 12:50:49
+SUCCESS|none|TIME: 2026-08-26 12:50:49
+SUCCESS|none|TIME: 2026-08-26 12:50:49
+SUCCESS|none|TIME: 2026-08-26 12:50:49
+SUCCESS|none|TIME: 2026-08-26 12:50:49
+SUCCESS|none|TIME: 2026-08-26 12:50:49
+SUCCESS|none|TIME: 2026-08-26 12:50:49
+SUCCESS|none|TIME: 2026-08-26 13:22:30
+SUCCESS|none|TIME: 2026-08-26 13:24:36
+SUCCESS|none|TIME: 2026-08-26 13:24:36
+SUCCESS|none|TIME: 2026-08-26 13:29:04
+SUCCESS|none|TIME: 2026-08-26 13:31:20
+SUCCESS|none|TIME: 2026-08-26 13:31:20
+SUCCESS|none|TIME: 2026-08-26 13:33:09
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-26 13:34:31
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-26 13:35:43
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-26 13:37:17
+SUCCESS|none|TIME: 2026-08-26 13:37:17
+SUCCESS|none|TIME: 2026-08-26 13:38:44
+SUCCESS|none|TIME: 2026-08-26 13:40:09
+SUCCESS|none|TIME: 2026-08-26 13:40:11
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 13:40:11
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 13:41:28
+SUCCESS|none|TIME: 2026-08-26 13:43:02
+SUCCESS|none|TIME: 2026-08-26 13:43:02
+SUCCESS|none|TIME: 2026-08-26 13:43:02
+SUCCESS|none|TIME: 2026-08-26 13:43:02
+SUCCESS|none|TIME: 2026-08-26 13:43:02
+SUCCESS|none|TIME: 2026-08-26 13:43:59
+SUCCESS|none|TIME: 2026-08-26 13:45:38
+SUCCESS|none|TIME: 2026-08-26 13:45:38
+SUCCESS|none|TIME: 2026-08-26 15:52:41
+SUCCESS|none|TIME: 2026-08-26 15:53:50
+SUCCESS|none|TIME: 2026-08-26 15:53:50
+SUCCESS|none|TIME: 2026-08-26 15:58:22
+SUCCESS|none|TIME: 2026-08-26 16:02:25
+SUCCESS|none|TIME: 2026-08-26 16:02:26
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 16:14:46
+SUCCESS|none|TIME: 2026-08-26 16:15:57
+SUCCESS|none|TIME: 2026-08-26 16:27:20
+SUCCESS|none|TIME: 2026-08-26 16:28:29
+SUCCESS|none|TIME: 2026-08-26 16:28:29
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 16:30:08
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 16:31:52
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 16:33:44
+SUCCESS|none|TIME: 2026-08-26 16:33:44
+SUCCESS|none|TIME: 2026-08-26 16:43:24
+SUCCESS|none|TIME: 2026-08-26 16:43:24
+SUCCESS|none|TIME: 2026-08-26 16:49:14
+SUCCESS|none|TIME: 2026-08-26 16:49:15
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-26 16:49:15
+SUCCESS|none|TIME: 2026-08-26 16:51:30
+SUCCESS|none|TIME: 2026-08-26 16:51:31
+SUCCESS|none|TIME: 2026-08-26 16:51:31
+SUCCESS|none|TIME: 2026-08-26 16:51:31
+SUCCESS|none|TIME: 2026-08-27 10:32:22
+SUCCESS|none|TIME: 2026-08-27 10:32:22
+SUCCESS|none|TIME: 2026-08-27 10:35:07
+SUCCESS|none|TIME: 2026-08-27 10:37:05
+SUCCESS|none|TIME: 2026-08-27 10:37:05
+SUCCESS|none|TIME: 2026-08-27 10:42:57
+SUCCESS|none|TIME: 2026-08-27 10:42:58
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-27 10:50:28
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-27 10:52:37
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-27 10:55:54
+SUCCESS|none|TIME: 2026-08-27 10:55:54
+SUCCESS|none|TIME: 2026-08-27 11:21:26
+SUCCESS|none|TIME: 2026-08-27 11:23:24
+SUCCESS|none|TIME: 2026-08-27 11:23:24
+SUCCESS|none|TIME: 2026-08-27 11:26:48
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-27 11:28:20
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-27 11:29:57
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-27 11:32:19
+SUCCESS|none|TIME: 2026-08-27 11:32:19
+SUCCESS|none|TIME: 2026-08-27 11:38:50
+SUCCESS|none|TIME: 2026-08-27 11:43:52
+SUCCESS|none|TIME: 2026-08-27 11:43:52
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-27 11:40:38
+SUCCESS|none|TIME: 2026-08-27 11:41:33
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-27 11:42:32
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-27 11:44:48
+SUCCESS|none|TIME: 2026-08-27 11:44:48
+SUCCESS|none|TIME: 2026-08-27 11:48:35
+SUCCESS|none|TIME: 2026-08-27 11:48:35
+SUCCESS|none|TIME: 2026-08-27 11:48:35
+SUCCESS|none|TIME: 2026-08-27 11:48:36
+SUCCESS|none|TIME: 2026-08-27 11:48:36
+SUCCESS|none|TIME: 2026-08-27 11:48:36
+SUCCESS|none|TIME: 2026-08-27 11:48:49
+SUCCESS|none|TIME: 2026-08-27 11:49:03
+SUCCESS|none|TIME: 2026-08-27 11:49:15
+SUCCESS|none|TIME: 2026-08-27 11:49:28
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-27 11:49:41
+SUCCESS|none|TIME: 2026-08-27 11:53:45
+SUCCESS|none|TIME: 2026-08-27 11:53:45
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-27 11:53:45
+SUCCESS|none|TIME: 2026-08-27 11:55:47
+UNCLASSIFIED|path 'felicity_v2_blueprint.json'|TIME: 2026-08-27 11:55:47
+SUCCESS|none|TIME: 2026-08-27 11:55:47
+SUCCESS|none|TIME: 2026-08-28 07:17:44
+SUCCESS|none|TIME: 2026-08-28 07:20:33
+UNCLASSIFIED|path 'unknown'|TIME: 2026-08-28 07:20:33
+SUCCESS|none|TIME: 2026-08-28 07:22:08
+SUCCESS|none|TIME: 2026-08-28 07:22:27
+SUCCESS|none|TIME: 2026-08-28 07:22:30
+SUCCESS|none|TIME: 2026-08-28 07:22:30
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-28 07:22:32
+SUCCESS|none|TIME: 2026-08-28 07:24:17
+SUCCESS|none|TIME: 2026-08-28 07:24:17
+SUCCESS|none|TIME: 2026-08-28 07:24:18
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-28 07:24:31
+SUCCESS|none|TIME: 2026-08-28 07:24:31
+SUCCESS|none|TIME: 2026-08-28 07:29:08
+SUCCESS|none|TIME: 2026-08-28 07:29:08
+SUCCESS|none|TIME: 2026-08-28 07:31:47
+SUCCESS|none|TIME: 2026-08-28 07:31:47
+SUCCESS|none|TIME: 2026-08-28 07:41:28
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-28 07:43:07
+SUCCESS|none|TIME: 2026-08-28 07:44:49
+SUCCESS|none|TIME: 2026-08-28 07:44:49
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-28 07:44:49
+GENERAL_FAILURE|exit code 1|TIME: 2026-08-28 07:46:52
+SUCCESS|none|TIME: 2026-08-28 07:46:53
+SUCCESS|none|TIME: 2026-08-28 08:04:55
+SUCCESS|none|TIME: 2026-08-28 08:07:20
+SUCCESS|none|TIME: 2026-08-28 08:07:20
+SUCCESS|none|TIME: 2026-08-28 08:07:20
+SUCCESS|none|TIME: 2026-08-28 08:07:20
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-28 08:07:20
+SUCCESS|none|TIME: 2026-08-28 08:08:39
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-28 08:08:39
+SUCCESS|none|TIME: 2026-08-28 08:09:55
+SUCCESS|none|TIME: 2026-08-28 08:09:57
+SUCCESS|none|TIME: 2026-08-28 08:09:57
+SUCCESS|none|TIME: 2026-08-28 08:09:57
+GENERAL_FAILURE|exit code 0|TIME: 2026-08-28 08:09:57
+SUCCESS|none|TIME: 2026-08-28 08:09:57

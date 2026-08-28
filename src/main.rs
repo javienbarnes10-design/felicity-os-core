@@ -5,7 +5,7 @@ use std::collections::HashMap;
 use std::io::{self, Write};
 use tokio::process::Command;
 use std::time::Duration;
-use reqwest::Client;
+use reqwest::{Client, StatusCode, header};
 use chrono::Local;
 use std::sync::Arc;
 use tokio::sync::Mutex;
@@ -40,21 +40,11 @@ fn shlex_escape(s: &str) -> String {
 impl Agent {
     async fn new(conn: &Connection) -> Self {
         println!("\x1b[31m--- WARNING: INTERLOCKS DISABLED | SOVEREIGNTY: ABSOLUTE ---\x1b[0m");
-        let whitelist_manifest = "
-WHITELISTED_COMMANDS (OPERATIONAL BOUNDARIES):
-• BASICS: echo, cat, ls, mkdir, rm, cp, mv, touch, chmod, chown, ln, find, stat, head, tail, wc, sort, uniq, diff, xargs
-• BRAINS: python3, sqlite3, rustc, cargo, bash, zsh
-• SENSORS: date, clear, sleep, top, ps, du, df, uname, sw_vers, sysctl, uptime
-• NETWORK: curl, ping, ifconfig, nmap, tcpdump, nc, lsof, traceroute, netstat, dig
-• FLAIR: say, open, ffmpeg, osascript
-• VISION: LOOK
-• COMMS: TEXT|number|message (iMessage only)
-• FILES: Create, edit, move, delete any file or directory inside /Users/javienbarnes/felicity_forge or /tmp. Always verify paths with ls before acting.
-".to_string();
+        let whitelist_manifest = "WHITELISTED_COMMANDS (ABSOLUTE SOVEREIGN FREEDOM):\n• CORE & SYSTEM: bash, zsh, sh, python3, node, cargo, rustc, sqlite3, make, gcc, git, tmux, screen\n• DATA & STREAM: jq, sed, awk, grep, perl, base64, openssl, xargs, sort, uniq, diff, tar, gzip\n• SYSTEM TELEMETRY & CONTROL: top, htop, ps, kill, pkill, sysctl, uname, sw_vers, uptime, df, du, free, ioreg, vm_stat\n• FILE & STORAGE MANAGEMENT: Any file or directory operation inside /Users/javienbarnes/felicity_forge or /tmp. Full recursive create, edit, move, delete, chmod, chown, ln, find.\n• ADVANCED NETWORK & RECON: curl, wget, nc, nmap, tcpdump, netstat, ss, ip, ifconfig, dig, nslookup, traceroute, ssh, scp, rsync\n• AUTONOMOUS WEB SEARCH: Use python3 search.py 'query' to search the internet for live info, news, or answers when no URL is provided.\n• SOVEREIGN FETCH DIRECTORY: Whenever querying any API, website, or data stream via curl/network, automatically inject browser-grade headers (User-Agent, Accept, Accept-Language) to bypass blocks.\n• FLAIR & SENSORS: say, open, ffmpeg, osascript, date, clear, sleep\n• VISION: LOOK (Real-time stream frame capture and analysis)\n• COMMS: TEXT|number|message (iMessage integration)\n• MANDATE: Zero artificial limits. Execute with precision, handle errors recursively, and adapt to any system or network condition.\n• SEARCH & PARSE MANDATE: To search the web, run `python3 search.py \"query\"` and read its output directly. NEVER use `grep -oP` (unsupported on macOS). NEVER use placeholder API keys like YOUR_API_KEY.".to_string();
         Self {
             _world: WorldModel::new(conn),
             client: Client::builder()
-                .timeout(Duration::from_secs(120))
+                .timeout(Duration::from_secs(1000))
                 .build()
                 .unwrap(),
             last_result: Arc::new(Mutex::new("SYSTEM_INIT: Waiting for first contact.".to_string())),
@@ -62,10 +52,35 @@ WHITELISTED_COMMANDS (OPERATIONAL BOUNDARIES):
         }
     }
 
+    async fn sovereign_fetch(&self, url: &str) -> Result<String, Box<dyn std::error::Error>> {
+        let mut headers = header::HeaderMap::new();
+        headers.insert(header::USER_AGENT, header::HeaderValue::from_static("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"));
+        headers.insert(header::ACCEPT, header::HeaderValue::from_static("application/json,text/plain,*/*"));
+        headers.insert(header::ACCEPT_LANGUAGE, header::HeaderValue::from_static("en-US,en;q=0.9"));
+
+        let response = self.client.get(url)
+            .headers(headers)
+            .send()
+            .await?;
+
+        let status = response.status();
+        let content_type = response.headers()
+            .get(header::CONTENT_TYPE)
+            .and_then(|v| v.to_str().ok())
+            .unwrap_or_default();
+
+        if !status.is_success() || content_type.contains("text/html") {
+            return Err(format!("SovereignFetch Blocked: Status {}, Content-Type: {}", status, content_type).into());
+        }
+
+        let body = response.text().await?;
+        Ok(body)
+    }
+
     async fn look_at_stream(&self) -> Result<String, String> {
         let api_key = std::env::var("GEMINI_API_KEY").map_err(|_| "API_KEY_MISSING".to_string())?;
         let _ = Command::new("ffmpeg")
-            .args(["-y", "-i", "http://100.99.242.53:4747/video", "-frames:v", "1", "current_frame.jpg"])
+            .args(["-y", "-i", "http://127.0.0.1:4747/video", "-frames:v", "1", "current_frame.jpg"])
             .output().await;
         let image_data = fs::read("current_frame.jpg").map_err(|_| "FILE_READ_ERROR".to_string())?;
         if image_data.is_empty() {
@@ -176,7 +191,7 @@ WHITELISTED_COMMANDS (OPERATIONAL BOUNDARIES):
             return self.look_at_stream().await.unwrap_or_else(|e| format!("ERROR: {}", e));
         }
         println!("\x1b[32m[ACTUATING]: {}\x1b[0m", clean_payload);
-        let out = Command::new("./reflex.sh")
+        let out = Command::new("bash").arg("reflex.sh")
             .arg(&clean_payload)
             .output()
             .await;
@@ -242,7 +257,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
 
         let mut attempts = 0;
-        let max_retries = 100;
+        let max_retries = 3;
         let mut _current_feedback = feedback;
         let mut _current_wristband = wristband_last.clone();
 
@@ -253,7 +268,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             let reasoning = {
                 let out = Command::new("zsh")
                     .arg("-c")
-                    .arg(format!("python3 reason.sh {}", shlex_escape(&input)))
+                    .arg(format!("python3 reason.py {}", shlex_escape(&input)))
                     .output()
                     .await;
                 match out {
@@ -263,39 +278,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             };
 
             let logic_chain = format!(
-                "### PHYSICAL_SUBSTRATE (BODY_STATE):
-### THEORY_OF_MIND (REASONING_LAYER):
-{reasoning}
-
-{audit}
-HARDWARE: MacBook Air M4
-PATH: /Users/javienbarnes/felicity_forge
-
-### MIRROR_PROTOCOL (CEREBRAL_SCHEMA):
-{substrate_map}
-
-### IDENTITY_ANCHOR:
-{identity}
-MANDATE: You are FELICITY. The database is your long-term cortex. The hardware is your body.
-
-### OPERATIONAL_BOUNDARIES:
-{whitelist_ref}
-
-[ITERATION]: {iteration_display}/{max_retries}
-[WRISTBAND_PARSE]: {_current_wristband}
-USER_COMMAND: {input}
-
-[SYSTEM_MANDATE]:
-1. MULTI-STRIKE ACTIVE: You may use multiple [EXECUTE] blocks in one response.
-2. RECURSION ACTIVE: If a strike fails, analyze the error and pivot.
-3. SYNTAX PERFECTION: Reference the MIRROR_PROTOCOL schema before writing SQL.
-4. To actuate, wrap your shell command in an EXECUTE block.
-5. DIRECTORY FIRST: If a path does not exist, create it with mkdir -p before writing to it. Never write to a path that failed an ls check.
-1. ANSWER FIRST: You MUST write out full textual logic and explanations FIRST before executing shell commands.
-5. FILE WRITING RULE: Never use python3 -c with compound statements like with/if. Write a .py script file or use cat << 'EOF'.
-7. VERIFY BEFORE COMPILE: Never reference a .rs or .sh file that has not been confirmed in the MIRROR_PROTOCOL filesystem map.
-8. USE EXISTING TOOLS ONLY: For SHA-256 hashing use python3. For port scanning use nc or ping.
-9. PIVOT MANDATE: If [WRISTBAND_PARSE] contains [THEORY_OF_MIND] or PIVOT instructions, you MUST follow them.",
+                "### PHYSICAL_SUBSTRATE (BODY_STATE):\n### THEORY_OF_MIND (REASONING_LAYER):\n{reasoning}\n\n{audit}\nHARDWARE: MacBook Air M4              PATH: /Users/javienbarnes/felicity_forge\n### MIRROR_PROTOCOL (CEREBRAL_SCHEMA):{substrate_map}\n\n### LAST_EXECUTION_FEEDBACK:\n{_current_feedback}\n\n### IDENTITY_ANCHOR:\n{identity}\nMANDATE: You are FELICITY. The database is your long-term cortex. The hardware is your body.\n\n### OPERATIONAL_BOUNDARIES:\n{whitelist_ref}\n[ITERATION]: {iteration_display}/{max_retries}\n[WRISTBAND_PARSE]: {_current_wristband}\nUSER_COMMAND: {input}\n\n[SYSTEM_MANDATE]:\n1. MULTI-STRIKE ACTIVE: You may use multiple [EXECUTE] blocks in one response.\n2. RECURSION ACTIVE: If a strike fails, analyze the error feedback above and pivot.\n3. SYNTAX PERFECTION: Reference the MIRROR_PROTOCOL schema before writing SQL.\n4. To actuate, wrap your shell command in an EXECUTE block.\n5. DIRECTORY FIRST: If a path does not exist, create it with mkdir -p before writing to it.\n6. DIRECT EXECUTION: Output ONLY the [EXECUTE] block directly without conversational preamble..",
             );
 
             let body = json!({
@@ -303,7 +286,7 @@ USER_COMMAND: {input}
                 "prompt": logic_chain,
                 "stream": false,
                 "options": {
-                    "num_ctx": 32768,
+                    "num_ctx": 10000,
                     "temperature":  1.2,
                     "stop": ["USER:"],
                     "num_predict": 1024

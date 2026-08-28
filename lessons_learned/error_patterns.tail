@@ -1,0 +1,10 @@
+PYTHON_RUNTIME_ERROR|python exception: ''|TIME: 2026-08-09 23:22:22
+SHELL_SYNTAX_ERROR|near: './reflex.sh: line 184: 0.89%: syntax error: invalid arithmetic operator (error token is ".89%")'|TIME: 2026-08-09 23:23:00
+SHELL_SYNTAX_ERROR|near: '0.0: syntax error: invalid arithmetic operator (error token is ".0'|TIME: 2026-08-09 23:23:46
+REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-10 11:13:01
+REPORTED_ERROR_IN_OUTPUT|exit code 0 — output describes a problem|TIME: 2026-08-16 16:52:58
+SQLITE_MISSING_TABLE|database '/Users/javienbarnes/felicity_forge/sovereign.db' — table 'transitions
+reflex_history
+transitions' does not exist|TIME: 2026-08-16 17:51:38
+PYTHON_SYNTAX_ERROR|python source: '                                report_file.write("Valid Python Syntax\n")'|TIME: 2026-08-16 18:02:24
+MISSING_FILE_OR_PATH|path '/Users/javienbarnes/felicity_forge/lessons_learned' does not exist|TIME: 2026-08-16 18:36:17
