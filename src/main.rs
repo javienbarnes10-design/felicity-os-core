@@ -5,7 +5,7 @@ use std::collections::HashMap;
 use std::io::{self, Write};
 use tokio::process::Command;
 use std::time::Duration;
-use reqwest::{Client, StatusCode, header};
+use reqwest::{Client, header};
 use chrono::Local;
 use std::sync::Arc;
 use tokio::sync::Mutex;
